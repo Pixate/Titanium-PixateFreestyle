@@ -1,6 +1,6 @@
 #!/bin/sh
 
-rm com.pixate.pxengine-iphone-1.0.0.zip ; ./build.py
+rm com.pixate.pxengine-iphone-*.zip ; ./build.py
 
-unzip com.pixate.pxengine-iphone-1.0.0.zip -d ~/Library/Application\ Support/Titanium/
+unzip com.pixate.pxengine-iphone-*.zip -d ~/Library/Application\ Support/Titanium/
 

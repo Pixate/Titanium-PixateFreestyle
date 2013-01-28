@@ -1,524 +1,0 @@
-TPXEngine
-v5
-r1
-cCheck dependencies
-cProcessPCH /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-hidrfikmtvyovahaekqoicqqodsz/ComPixatePxengine_Prefix.pch.pth ComPixatePxengine_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/Release-iphoneos/libComPixatePxengine.a normal armv7
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
-c000000005092F81F0000000000000132
-t1351809055
-s306
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000505A55FA0000000000629C80
-t1348097530
-s6462592
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c00000000505A55F900000000000015F7
-t1348097529
-s5623
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModuleAssets.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModuleAssets.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/ComPixatePxengine_Prefix.pch
-c0000000050B52DDE000000000000003E
-t1354051038
-s62
-i<Foundation/Foundation.h>
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengine.LinkFileList
-c0000000050B695590000000000000174
-t1354143065
-s372
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o
-t1354053940
-s80044
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o
-t1354053940
-s5372
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/Release-iphoneos/libComPixatePxengine.a
-t1354053940
-s85920
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.h
-c0000000050E5F49400000000000000F7
-t1357247636
-s247
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m
-c0000000050F73E5200000000000004F7
-t1358380626
-s1271
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModuleAssets.h
-c0000000050E5F49400000000000000D6
-t1357247636
-s214
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModuleAssets.m
-c0000000050E5F494000000000000025E
-t1357247636
-s606
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/ComPixatePxengine_Prefix.pch
-c0000000050E5F494000000000000003E
-t1357247636
-s62
-i<Foundation/Foundation.h>
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengine.LinkFileList
-c0000000050F0A822000000000000016C
-t1357948962
-s364
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o
-t1359259523
-s83532
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o
-t1357948963
-s5428
-
-N/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/Release-iphoneos/libComPixatePxengine.a
-t1359259523
-s89464
-
-N/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModuleAssets.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModuleAssets.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/ComPixatePxengine_Prefix.pch
-c0000000050B52DDE000000000000003E
-t1354051038
-s62
-i<Foundation/Foundation.h>
-
-N/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengine.LinkFileList
-c0000000050B539340000000000000146
-t1354053940
-s326
-
-N/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o
-t2
-s0
-
-N/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o
-t2
-s0
-
-N/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/Release-iphoneos/libComPixatePxengine.a
-t2
-s0
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/Bridge.h
-c0000000050B52B400000000000000268
-t1354050368
-s616
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/KrollCallback.h
-c0000000050B52B120000000000000A60
-t1354050322
-s2656
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/KrollContext.h
-c0000000050B52B2F0000000000001543
-t1354050351
-s5443
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/KrollObject.h
-c0000000050B52B280000000000000D83
-t1354050344
-s3459
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/LayoutConstraint.h
-c0000000050B52B1B0000000000000B9E
-t1354050331
-s2974
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/ListenerEntry.h
-c0000000050B52B2A0000000000000269
-t1354050346
-s617
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiAnimation.h
-c0000000050B52B370000000000001201
-t1354050359
-s4609
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiBase.h
-c0000000050B52B2100000000000048B4
-t1354050337
-s18612
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiBindingRunLoop.h
-c0000000050B52B12000000000000022D
-t1354050322
-s557
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiBlob.h
-c0000000050B52B1B0000000000000B0A
-t1354050331
-s2826
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiBuffer.h
-c0000000050B52B2800000000000004F6
-t1354050344
-s1270
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiColor.h
-c0000000050B52B2F0000000000000496
-t1354050351
-s1174
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore/Ti.h
-c0000000050B52B3D0000000000000721
-t1354050365
-s1825
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore/TiBase.h
-c0000000050B52B3F00000000000019E1
-t1354050367
-s6625
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore/TiContextRef.h
-c0000000050B52B2100000000000014DD
-t1354050337
-s5341
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore/TiContextRefPrivate.h
-c0000000050B52B0E0000000000000990
-t1354050318
-s2448
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore/TiCore.h
-c0000000050B52B3F00000000000006A0
-t1354050367
-s1696
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore/TiObjectRef.h
-c0000000050B52B120000000000009462
-t1354050322
-s37986
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore/TiStringRef.h
-c0000000050B52B2000000000000016E7
-t1354050336
-s5863
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore/TiStringRefCF.h
-c0000000050B52B380000000000000A40
-t1354050360
-s2624
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore/TiValueRef.h
-c0000000050B52B3B000000000000323B
-t1354050363
-s12859
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore/WebKitAvailability.h
-c0000000050B52B3500000000000080D1
-t1354050357
-s32977
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiDimension.h
-c0000000050B52B110000000000001E45
-t1354050321
-s7749
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiEvaluator.h
-c0000000050B52B2400000000000004D5
-t1354050340
-s1237
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiFile.h
-c0000000050B52B0D0000000000000680
-t1354050317
-s1664
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiGradient.h
-c0000000050B52B2500000000000005FC
-t1354050341
-s1532
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiHost.h
-c0000000050B52B090000000000000503
-t1354050313
-s1283
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiModule.h
-c0000000050B52B430000000000000736
-t1354050371
-s1846
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiPoint.h
-c0000000050B52B360000000000000443
-t1354050358
-s1091
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiProxy.h
-c0000000050B52B0E0000000000002740
-t1354050318
-s10048
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiPublicAPI.h
-c0000000050B52B220000000000000A67
-t1354050338
-s2663
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiStylesheet.h
-c0000000050B52B1500000000000002CB
-t1354050325
-s715
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiThreading.h
-c0000000050B52B1100000000000008EF
-t1354050321
-s2287
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiUIView.h
-c0000000050B52B1D0000000000001ECB
-t1354050333
-s7883
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiUtils.h
-c0000000050B52B2800000000000048B7
-t1354050344
-s18615
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/WebFont.h
-c0000000050B52B3600000000000008BA
-t1354050358
-s2234
-
-N/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/defines.h
-c0000000050B52B2200000000000009CE
-t1354050338
-s2510
-
-N/var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-bwifpxiyndcpnxbwueqozlrrhocr/ComPixatePxengine_Prefix.pch.pth
-t1354051307
-s2860792
-
-N/var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-fvtvdpmjwqsaktdgqvzwupcbhgbf/ComPixatePxengine_Prefix.pch.pth
-t2
-s0
-
-N/var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-hidrfikmtvyovahaekqoicqqodsz/ComPixatePxengine_Prefix.pch.pth
-t1357948963
-s2860964
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies064c7059ebb4b641^f1847e59ebb4b641^---0#1#0#--18"Check dependencies36"5D61DDE5-5D65-4C63-8909-2C9E134866D4-
-
-CCompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s375835866.107222
-e375835866.274039
-r1
-xCompileC
-xbuild/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o
-x/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m:38:5: warning: instance method '-setStyleId:' not found (return type defaults to 'id')
-o    [self.accessibilityElement setStyleId:[TiUtils stringValue:value]];
-o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m:43:5: warning: instance method '-setStyleClass:' not found (return type defaults to 'id')
-o    [self.accessibilityElement setStyleClass:[TiUtils stringValue:value]];
-o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o2 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m7a8f1bdacc66b641^812646dacc66b641^-725"/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m:38:5: warning: instance method '-setStyleId:' not found (return type defaults to 'id')    [self.accessibilityElement setStyleId:[TiUtils stringValue:value]];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m:43:5: warning: instance method '-setStyleClass:' not found (return type defaults to 'id')    [self.accessibilityElement setStyleClass:[TiUtils stringValue:value]];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@71"Instance method '-setStyleId:' not found (return type defaults to 'id')-375835866#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@132"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^37#4#37#4#714#0#14"Semantic Issue1(3@132"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^37#4#37#70#714#65#-2@74"Instance method '-setStyleClass:' not found (return type defaults to 'id')-375835866#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@132"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^42#4#42#4#824#0#14"Semantic Issue1(3@132"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^42#4#42#73#824#68#-0#0#0#-19%DVTDocumentLocation4@132"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^4272"CompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o Classes/ComPixatePxengineModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/pcolton/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/pcolton/.rvm/bin:/Users/pcolton/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-generated-files.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-own-target-headers.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-all-target-headers.hmap -iquote /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-project-headers.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/Release-iphoneos/include "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include" "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore" -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources/armv7 -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources -F/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-fvtvdpmjwqsaktdgqvzwupcbhgbf/ComPixatePxengine_Prefix.pch -MMD -MT dependencies -MF /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.d --serialize-diagnostics /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.dia -c /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModule.m -o /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o36"DE286C43-6DF8-4C0F-8DA8-25640666DA80-
-
-CCompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s380952323.561761
-e380952323.751050
-r1
-xCompileC
-xbuild/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o
-x/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m:40:6: warning: receiver 'PXEngine' is a forward class and corresponding @interface may not exist
-o    [PXEngine licenseKey:serial forUser:user];
-o     ^
-o/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m:13:8: note: forward declaration of class here
-o@class PXEngine;
-o       ^
-o/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m:40:5: warning: class method '+licenseKey:forUser:' not found (return type defaults to 'id')
-o    [PXEngine licenseKey:serial forUser:user];
-o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m:52:5: warning: instance method '-setStyleId:' not found (return type defaults to 'id')
-o    [self.accessibilityElement setStyleId:[TiUtils stringValue:value]];
-o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m:57:5: warning: instance method '-setStyleClass:' not found (return type defaults to 'id')
-o    [self.accessibilityElement setStyleClass:[TiUtils stringValue:value]];
-o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o4 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m0ef58f03dfb4b641^9e44c003dfb4b641^-1464"/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m:40:6: warning: receiver 'PXEngine' is a forward class and corresponding @interface may not exist    [PXEngine licenseKey:serial forUser:user];     ^/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m:13:8: note: forward declaration of class here@class PXEngine;       ^/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m:40:5: warning: class method '+licenseKey:forUser:' not found (return type defaults to 'id')    [PXEngine licenseKey:serial forUser:user];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m:52:5: warning: instance method '-setStyleId:' not found (return type defaults to 'id')    [self.accessibilityElement setStyleId:[TiUtils stringValue:value]];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m:57:5: warning: instance method '-setStyleClass:' not found (return type defaults to 'id')    [self.accessibilityElement setStyleClass:[TiUtils stringValue:value]];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@81"Receiver 'PXEngine' is a forward class and corresponding @interface may not exist-380952323#18446744073709551615#0#1(2@33"Forward declaration of class here-380952323#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@128"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^12#7#12#7#291#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@128"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^39#5#39#5#925#0#14"Semantic Issue--2@76"Class method '+licenseKey:forUser:' not found (return type defaults to 'id')-380952323#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@128"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^39#4#39#4#924#0#14"Semantic Issue1(3@128"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^39#4#39#45#924#40#-2@71"Instance method '-setStyleId:' not found (return type defaults to 'id')-380952323#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@128"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^51#4#51#4#1082#0#14"Semantic Issue1(3@128"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^51#4#51#70#1082#65#-2@74"Instance method '-setStyleClass:' not found (return type defaults to 'id')-380952323#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@128"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^56#4#56#4#1192#0#14"Semantic Issue1(3@128"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^56#4#56#73#1192#68#-0#0#0#-19%DVTDocumentLocation4@128"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^4220"CompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o Classes/ComPixatePxengineModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/pcolton/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/pcolton/.rvm/bin:/Users/pcolton/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-generated-files.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-own-target-headers.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-all-target-headers.hmap -iquote /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-project-headers.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/Release-iphoneos/include "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include" "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore" -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources/armv7 -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources -F/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-hidrfikmtvyovahaekqoicqqodsz/ComPixatePxengine_Prefix.pch -MMD -MT dependencies -MF /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.d --serialize-diagnostics /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.dia -c /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModule.m -o /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o36"9A4B1D37-4C79-403F-AD54-64637216C424-
-
-CCompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s375746740.078550
-e375746740.180645
-r1
-xCompileC
-xbuild/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o
-x/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m:38:5: warning: instance method '-setStyleId:' not found (return type defaults to 'id')
-o    [self.accessibilityElement setStyleId:[TiUtils stringValue:value]];
-o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m:43:5: warning: instance method '-setStyleClass:' not found (return type defaults to 'id')
-o    [self.accessibilityElement setStyleClass:[TiUtils stringValue:value]];
-o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o2 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.mb24714b47065b641^5c3e2eb47065b641^-679"/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m:38:5: warning: instance method '-setStyleId:' not found (return type defaults to 'id')    [self.accessibilityElement setStyleId:[TiUtils stringValue:value]];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m:43:5: warning: instance method '-setStyleClass:' not found (return type defaults to 'id')    [self.accessibilityElement setStyleClass:[TiUtils stringValue:value]];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@71"Instance method '-setStyleId:' not found (return type defaults to 'id')-375746740#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@109"file://localhost/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^37#4#37#4#714#0#14"Semantic Issue1(3@109"file://localhost/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^37#4#37#70#714#65#-2@74"Instance method '-setStyleClass:' not found (return type defaults to 'id')-375746740#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@109"file://localhost/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^42#4#42#4#824#0#14"Semantic Issue1(3@109"file://localhost/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^42#4#42#73#824#68#-0#0#0#-19%DVTDocumentLocation4@109"file://localhost/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m0000000000000000^3973"CompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o Classes/ComPixatePxengineModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/pcolton/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/pcolton/.rvm/bin:/Users/pcolton/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-generated-files.hmap -I/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-own-target-headers.hmap -I/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-all-target-headers.hmap -iquote /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-project-headers.hmap -I/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/Release-iphoneos/include "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include" "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore" -I/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources/armv7 -I/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources -F/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-bwifpxiyndcpnxbwueqozlrrhocr/ComPixatePxengine_Prefix.pch -MMD -MT dependencies -MF /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.d --serialize-diagnostics /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.dia -c /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModule.m -o /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModule.o36"3B07539C-7163-41D5-A1C9-C58C261F9E90-
-
-CCompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s375835866.107229
-e375835866.127143
-r1
-xCompileC
-xbuild/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o
-x/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModuleAssets.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModuleAssets.m7e8e1bdacc66b641^6d8d20dacc66b641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModuleAssets.m0000000000000000^4308"CompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o Classes/ComPixatePxengineModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/pcolton/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/pcolton/.rvm/bin:/Users/pcolton/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-generated-files.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-own-target-headers.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-all-target-headers.hmap -iquote /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-project-headers.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/Release-iphoneos/include "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include" "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore" -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources/armv7 -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources -F/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-fvtvdpmjwqsaktdgqvzwupcbhgbf/ComPixatePxengine_Prefix.pch -MMD -MT dependencies -MF /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.d --serialize-diagnostics /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.dia -c /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/Classes/ComPixatePxengineModuleAssets.m -o /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o36"9F77CDC4-2DB4-43F1-A4C8-CC311D023011-
-
-CCompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379641763.303248
-e379641763.518368
-r1
-xCompileC
-xbuild/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o
-x/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModuleAssets.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModuleAssets.mf9bd4da3dfa0b641^e5b384a3dfa0b641^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModuleAssets.m0000000000000000^4256"CompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o Classes/ComPixatePxengineModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/pcolton/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/pcolton/.rvm/bin:/Users/pcolton/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-generated-files.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-own-target-headers.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-all-target-headers.hmap -iquote /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-project-headers.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/Release-iphoneos/include "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include" "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore" -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources/armv7 -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources -F/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-hidrfikmtvyovahaekqoicqqodsz/ComPixatePxengine_Prefix.pch -MMD -MT dependencies -MF /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.d --serialize-diagnostics /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.dia -c /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/Classes/ComPixatePxengineModuleAssets.m -o /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o36"31FB092A-25D9-463C-9E8A-93E17303C491-
-
-CCompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s375746740.078545
-e375746740.098418
-r1
-xCompileC
-xbuild/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o
-x/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModuleAssets.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModuleAssets.med4514b47065b641^ec3119b47065b641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModuleAssets.m0000000000000000^4009"CompileC build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o Classes/ComPixatePxengineModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/pcolton/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/pcolton/.rvm/bin:/Users/pcolton/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-generated-files.hmap -I/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-own-target-headers.hmap -I/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-all-target-headers.hmap -iquote /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-project-headers.hmap -I/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/Release-iphoneos/include "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include" "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore" -I/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources/armv7 -I/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources -F/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-bwifpxiyndcpnxbwueqozlrrhocr/ComPixatePxengine_Prefix.pch -MMD -MT dependencies -MF /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.d --serialize-diagnostics /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.dia -c /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/Classes/ComPixatePxengineModuleAssets.m -o /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengineModuleAssets.o36"5CDC7F50-359D-4015-AE60-64759AA4090B-
-
-CLibtool /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/Release-iphoneos/libComPixatePxengine.a normal armv7
-s375835866.280951
-e375835866.288433
-r1
-xLibtool
-x/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/Release-iphoneos/libComPixatePxengine.a
-xnormal
-xarmv7
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Libtool build/Release-iphoneos/libComPixatePxengine.a normal armv7920548dacc66b641^67d749dacc66b641^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1330"Libtool build/Release-iphoneos/libComPixatePxengine.a normal armv7    cd /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/pcolton/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/pcolton/.rvm/bin:/Users/pcolton/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/Release-iphoneos -filelist /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengine.LinkFileList -ObjC -framework Foundation -o /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/Release-iphoneos/libComPixatePxengine.a36"32A6C001-E771-4F4E-AFF1-CAAAF3DB539A-
-
-CLibtool /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/Release-iphoneos/libComPixatePxengine.a normal armv7
-s380952323.758291
-e380952323.764637
-r1
-xLibtool
-x/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/Release-iphoneos/libComPixatePxengine.a
-xnormal
-xarmv7
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Libtool build/Release-iphoneos/libComPixatePxengine.a normal armv73733c203dfb4b641^a5bfc303dfb4b641^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1314"Libtool build/Release-iphoneos/libComPixatePxengine.a normal armv7    cd /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/pcolton/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/pcolton/.rvm/bin:/Users/pcolton/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/Release-iphoneos -filelist /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengine.LinkFileList -ObjC -framework Foundation -o /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/Release-iphoneos/libComPixatePxengine.a36"05459AF5-E8B7-4F72-B132-855E0A09445C-
-
-CLibtool /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/Release-iphoneos/libComPixatePxengine.a normal armv7
-s375746740.187667
-e375746740.196705
-r1
-xLibtool
-x/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/Release-iphoneos/libComPixatePxengine.a
-xnormal
-xarmv7
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Libtool build/Release-iphoneos/libComPixatePxengine.a normal armv7fd3230b47065b641^c45c32b47065b641^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1238"Libtool build/Release-iphoneos/libComPixatePxengine.a normal armv7    cd /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/pcolton/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/pcolton/.rvm/bin:/Users/pcolton/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/Release-iphoneos -filelist /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/Objects-normal/armv7/ComPixatePxengine.LinkFileList -ObjC -framework Foundation -o /Users/pcolton/Documents/Titanium_Studio_Workspace/PXEngine/build/Release-iphoneos/libComPixatePxengine.a36"D8CE628E-EB97-4959-AA5B-15ECE0CB9DC1-
-
-CProcessPCH /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-bwifpxiyndcpnxbwueqozlrrhocr/ComPixatePxengine_Prefix.pch.pth ComPixatePxengine_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-fvtvdpmjwqsaktdgqvzwupcbhgbf/ComPixatePxengine_Prefix.pch.pth ComPixatePxengine_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s375835865.939848
-e375835866.100366
-r1
-xProcessPCH
-x/var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-fvtvdpmjwqsaktdgqvzwupcbhgbf/ComPixatePxengine_Prefix.pch.pth
-xComPixatePxengine_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile ComPixatePxengine_Prefix.pchf9baf0d9cc66b641^e1b319dacc66b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/ComPixatePxengine_Prefix.pch0000000000000000^4156"ProcessPCH /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-fvtvdpmjwqsaktdgqvzwupcbhgbf/ComPixatePxengine_Prefix.pch.pth ComPixatePxengine_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/pcolton/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/pcolton/.rvm/bin:/Users/pcolton/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-generated-files.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-own-target-headers.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-all-target-headers.hmap -iquote /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-project-headers.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/Release-iphoneos/include "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include" "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore" -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources/armv7 -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources -F/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/build/Release-iphoneos -DTI_POST_1_2 --serialize-diagnostics /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-fvtvdpmjwqsaktdgqvzwupcbhgbf/ComPixatePxengine_Prefix.pch.dia -c /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Appcelerator/PXEngine/ComPixatePxengine_Prefix.pch -o /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-fvtvdpmjwqsaktdgqvzwupcbhgbf/ComPixatePxengine_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-fvtvdpmjwqsaktdgqvzwupcbhgbf/ComPixatePxengine_Prefix.pch.d36"D83B820D-40B2-47A0-BBBF-6D01CDA2A008-
-
-CProcessPCH /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-hidrfikmtvyovahaekqoicqqodsz/ComPixatePxengine_Prefix.pch.pth ComPixatePxengine_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379641762.948955
-e379641763.296834
-r1
-xProcessPCH
-x/var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-hidrfikmtvyovahaekqoicqqodsz/ComPixatePxengine_Prefix.pch.pth
-xComPixatePxengine_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile ComPixatePxengine_Prefix.pch2849f3a2dfa0b641^8ffe4ba3dfa0b641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/ComPixatePxengine_Prefix.pch0000000000000000^4116"ProcessPCH /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-hidrfikmtvyovahaekqoicqqodsz/ComPixatePxengine_Prefix.pch.pth ComPixatePxengine_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/pcolton/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/pcolton/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/pcolton/.rvm/bin:/Users/pcolton/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-generated-files.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-own-target-headers.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-all-target-headers.hmap -iquote /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/ComPixatePxengine-project-headers.hmap -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/Release-iphoneos/include "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include" "-I/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.v20121127112601/iphone/include/TiCore" -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources/armv7 -I/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/PXEngine.build/Release-iphoneos/PXEngine.build/DerivedSources -F/Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/build/Release-iphoneos -DTI_POST_1_2 --serialize-diagnostics /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-hidrfikmtvyovahaekqoicqqodsz/ComPixatePxengine_Prefix.pch.dia -c /Users/pcolton/Documents/Development/Pixate/ios/Integrations/Titanium/PXEngine/ComPixatePxengine_Prefix.pch -o /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-hidrfikmtvyovahaekqoicqqodsz/ComPixatePxengine_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/3w/ckwjfbt55x15vdkybpt0cfs00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ComPixatePxengine_Prefix-hidrfikmtvyovahaekqoicqqodsz/ComPixatePxengine_Prefix.pch.d36"372E0291-7A5F-4BAF-8F08-F7B3282FE0A9-
-

@@ -11,6 +11,8 @@
 #import "TiUIView.h"
 
 @class PXEngine;
+@class PXStylesheet;
+@class PXStyleUtils;
 
 @implementation ComPixatePxengineModule
 
@@ -35,9 +37,42 @@
     NSString *user    = [TiUtils stringValue:[args valueForKey:@"licenseUser"]];
     NSString *serial = [TiUtils stringValue:[args valueForKey:@"licenseSerial"]];
     
-    NSLog(@"MODE: %@ %@", user, serial);
-    
     [PXEngine licenseKey:serial forUser:user];
+}
+
+- (void) styleSheetFromFilePathWithOrigin:(id)args
+{
+    ENSURE_SINGLE_ARG(args, NSDictionary);
+    
+    NSString *aFilePath = [TiUtils stringValue:[args valueForKey:@"filename"]];
+    int       origin    = [TiUtils intValue:[args valueForKey:@"origin"]];
+
+    [PXStylesheet styleSheetFromFilePath:aFilePath withOrigin:origin];
+}
+
+- (void) styleSheetFromSourceWithOrigin:(id)args
+{
+    ENSURE_SINGLE_ARG(args, NSDictionary);
+    
+    NSString *source = [TiUtils stringValue:[args valueForKey:@"source"]];
+    int       origin    = [TiUtils intValue:[args valueForKey:@"origin"]];
+    
+    [PXStylesheet styleSheetFromSource:source withOrigin:origin];
+}
+
+- (void) applyStylesheets
+{
+    [PXStylesheet applyStylesheets];
+}
+
+- (NSString *) version
+{
+    return [[PXEngine sharedInstance] version];
+}
+
+- (NSDate *) buildDate
+{
+    return [[PXEngine sharedInstance] buildDate];
 }
 
 @end
@@ -46,6 +81,16 @@
 @end
 
 @implementation TiUIView (Pixate)
+
+- (void)updateStyles_:(id)value
+{
+    [PXStyleUtils updateStylesForStyleable:self andDescendants:YES];
+}
+
+- (void)updateStylesNonRecursively_:(id)value
+{
+    [PXStyleUtils updateStylesForStyleable:self andDescendants:NO];
+}
 
 - (void)setStyleId_:(id)value
 {

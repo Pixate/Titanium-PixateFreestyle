@@ -71,7 +71,7 @@ If using Alloy, just set **styleId**, **styleClass**, and/or **styleCSS** in you
 
 ## CSS
 
-Add a default.css to your project. Here's an example:
+Add a default.css file into your project's **Resources** folder. Here's an example:
 
 	#myLabel {
 	 color: blue;

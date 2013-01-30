@@ -10,6 +10,12 @@ The Titanium-Pixate module requires **Titanium 3.0.0.GA** or greater.
 
 See [Using Titanium Modules](https://wiki.appcelerator.org/display/tis/Using+Titanium+Modules) for information on how to install the module into your project.
 
+## Configuting **tiapp.xml**
+
+You can use the Ti Studio interface to add the Pixate Engine module into your project, or just edit the tiapp.xml file directly and add this to your <modules> section:
+
+	<module platform="iphone">com.pixate.pxengine</module>
+
 ## Setting the License Information
 
 In your **tiapp.xml** file, add this section:
@@ -71,7 +77,7 @@ If using Alloy, just set **styleId**, **styleClass**, and/or **styleCSS** in you
 
 ## CSS
 
-Add a default.css file into your project's **Resources** folder. Here's an example:
+Add a **default.css** file into your project's **Resources** folder. Here's an example:
 
 	#myLabel {
 	 color: blue;

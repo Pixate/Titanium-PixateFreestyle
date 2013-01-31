@@ -9,6 +9,10 @@
 #import "TiHost.h"
 #import "TiUtils.h"
 #import "TiUIView.h"
+#import "TiViewProxy.h"
+
+#import <objc/runtime.h>
+#import <objc/message.h>
 
 @class PXEngine;
 @class PXStylesheet;
@@ -60,7 +64,7 @@
     [PXStylesheet styleSheetFromSource:source withOrigin:origin];
 }
 
-- (void) applyStylesheets
+- (void) applyStylesheets:(id)args
 {
     [PXStylesheet applyStylesheets];
 }
@@ -77,20 +81,67 @@
 
 @end
 
+@interface TiViewProxy (Pixate)
+@end
+
+@implementation TiViewProxy (Pixate)
+
++(void)load
+{
+    [self swizzleMethod:@selector(relayout) withMethod:@selector(px_relayout)];
+}
+
+-(void)updateStyles:(id)arg
+{
+    TiThreadPerformOnMainThread(^{
+        if([self.view respondsToSelector:@selector(updateStyles)])
+        {
+            [[self view] updateStyles];
+        }
+    }, NO);
+}
+
+-(void)updateStylesNonRecursively:(id)arg
+{
+    TiThreadPerformOnMainThread(^{
+        if([self.view respondsToSelector:@selector(updateStylesNonRecursively)])
+        {
+            [[self view] updateStylesNonRecursively];
+        }
+    }, NO);
+}
+
+-(void)px_relayout
+{
+    [self px_relayout];
+    [self updateStylesNonRecursively:nil];
+}
+
++ (void)swizzleMethod:(SEL)orig_sel withMethod:(SEL)alt_sel
+{
+	Class c = self;
+    Method origMethod = class_getInstanceMethod(c, orig_sel);
+    Method altMethod = class_getInstanceMethod(c, alt_sel);
+    
+    if (class_addMethod(c, orig_sel, method_getImplementation(altMethod), method_getTypeEncoding(altMethod)))
+    {
+        class_replaceMethod(c, alt_sel, method_getImplementation(origMethod), method_getTypeEncoding(origMethod));
+    }
+    else
+    {
+        method_exchangeImplementations(origMethod, altMethod);
+    }
+}
+
+@end
+
+////////
+
+
 @interface TiUIView (Pixate)
 @end
 
 @implementation TiUIView (Pixate)
-
-- (void)updateStyles_:(id)value
-{
-    [PXStyleUtils updateStylesForStyleable:self andDescendants:YES];
-}
-
-- (void)updateStylesNonRecursively_:(id)value
-{
-    [PXStyleUtils updateStylesForStyleable:self andDescendants:NO];
-}
 
 - (void)setStyleId_:(id)value
 {

@@ -50,8 +50,13 @@
     
     NSString *aFilePath = [TiUtils stringValue:[args valueForKey:@"filename"]];
     int       origin    = [TiUtils intValue:[args valueForKey:@"origin"]];
+    
+    PXStylesheet *pxs = [PXStylesheet styleSheetFromFilePath:aFilePath withOrigin:origin];
 
-    [PXStylesheet styleSheetFromFilePath:aFilePath withOrigin:origin];
+    if([args valueForKey:@"monitor"] != nil)
+    {
+        [pxs setMonitorChanges:[TiUtils boolValue:[args valueForKey:@"monitor"]]];
+    }
 }
 
 - (void) styleSheetFromSourceWithOrigin:(id)args
@@ -67,6 +72,16 @@
 - (void) applyStylesheets:(id)args
 {
     [PXStylesheet applyStylesheets];
+}
+
+- (id)refreshStylesWithOrientationChange
+{
+    return NUMBOOL([[PXEngine sharedInstance] refreshStylesWithOrientationChange]);
+}
+
+-(void)setRefreshStylesWithOrientationChange:(id)val
+{
+    [[PXEngine sharedInstance] setRefreshStylesWithOrientationChange: [TiUtils boolValue:val]];
 }
 
 - (NSString *) version

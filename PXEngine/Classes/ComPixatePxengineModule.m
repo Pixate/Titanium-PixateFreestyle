@@ -1,9 +1,8 @@
-/**
- * Your Copyright Here
- *
- * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
- * and licensed under the Apache Public License (version 2)
- */
+//
+//  Created by Paul Colton on 9/13/12.
+//  Copyright (c) 2012 Pixate, Inc. All rights reserved.
+//
+
 #import "ComPixatePxengineModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
@@ -13,6 +12,8 @@
 
 #import <objc/runtime.h>
 #import <objc/message.h>
+
+#import <PXEngine/PXEngine.h>
 
 @class PXEngine;
 @class PXStylesheet;
@@ -34,24 +35,23 @@
 	return @"com.pixate.pxengine";
 }
 
-- (void) licenseKeyForUser:(id)args
-{
-    ENSURE_SINGLE_ARG(args, NSDictionary);
-    
-    NSString *user    = [TiUtils stringValue:[args valueForKey:@"licenseUser"]];
-    NSString *serial = [TiUtils stringValue:[args valueForKey:@"licenseSerial"]];
-    
-    [PXEngine licenseKey:serial forUser:user];
-}
+#pragma Pixate enums
 
-- (void) styleSheetFromFilePathWithOrigin:(id)args
+MAKE_SYSTEM_PROP(PXStylesheetOriginApplication, PXStylesheetOriginApplication);
+MAKE_SYSTEM_PROP(PXStylesheetOriginUser, PXStylesheetOriginUser);
+MAKE_SYSTEM_PROP(PXStylesheetOriginView, PXStylesheetOriginView);
+MAKE_SYSTEM_PROP(PXStylesheetOriginInline, PXStylesheetOriginInline);
+
+#pragma Pixate API
+
+- (void)styleSheetFromFilePathWithOrigin:(id)args
 {
     ENSURE_SINGLE_ARG(args, NSDictionary);
     
     NSString *aFilePath = [TiUtils stringValue:[args valueForKey:@"filename"]];
     int       origin    = [TiUtils intValue:[args valueForKey:@"origin"]];
     
-    PXStylesheet *pxs = [PXStylesheet styleSheetFromFilePath:aFilePath withOrigin:origin];
+    PXStylesheet *pxs = [PXEngine styleSheetFromFilePath:aFilePath withOrigin:origin];
 
     if([args valueForKey:@"monitor"] != nil)
     {
@@ -59,39 +59,49 @@
     }
 }
 
-- (void) styleSheetFromSourceWithOrigin:(id)args
+- (void)styleSheetFromSourceWithOrigin:(id)args
 {
     ENSURE_SINGLE_ARG(args, NSDictionary);
     
     NSString *source = [TiUtils stringValue:[args valueForKey:@"source"]];
     int       origin    = [TiUtils intValue:[args valueForKey:@"origin"]];
     
-    [PXStylesheet styleSheetFromSource:source withOrigin:origin];
+    [PXEngine styleSheetFromSource:source withOrigin:origin];
 }
 
-- (void) applyStylesheets:(id)args
+- (void)applyStylesheets:(id)args
 {
-    [PXStylesheet applyStylesheets];
+    [PXEngine applyStylesheets];
 }
 
 - (id)refreshStylesWithOrientationChange
 {
-    return NUMBOOL([[PXEngine sharedInstance] refreshStylesWithOrientationChange]);
+    return NUMBOOL(PXEngine.refreshStylesWithOrientationChange);
 }
 
 -(void)setRefreshStylesWithOrientationChange:(id)val
 {
-    [[PXEngine sharedInstance] setRefreshStylesWithOrientationChange: [TiUtils boolValue:val]];
+    [PXEngine setRefreshStylesWithOrientationChange: [TiUtils boolValue:val]];
 }
 
-- (NSString *) version
+- (NSString *)version
 {
-    return [[PXEngine sharedInstance] version];
+    return PXEngine.version;
 }
 
-- (NSDate *) buildDate
+- (NSDate *)buildDate
 {
-    return [[PXEngine sharedInstance] buildDate];
+    return PXEngine.buildDate;
+}
+
++(NSString *)licenseEmail
+{
+    return PXEngine.licenseEmail;
+}
+
++(NSString *)licenseKey
+{
+    return PXEngine.licenseKey;
 }
 
 @end

@@ -1,4 +1,4 @@
-# Titanium-Pixate Module
+# Titanium-Pixate Module v1.0.3
 
 **THIS IS AN EARLY RELEASE AND NOT YET PRODUCTION READY**
 
@@ -23,6 +23,8 @@ In your **tiapp.xml** file, add this section:
 	<ios>
 	    <plist>
 	        <dict>
+        		<key>PXTitanium</key>
+        		<true/>
 	            <key>PXuser</key>
 	            <string>LICENSE USERNAME</string>
 	            <key>PXkey</key>

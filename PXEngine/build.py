@@ -145,6 +145,14 @@ def zip_dir(zf,dir,basepath,ignore=[]):
 		for name in ignoreDirs:
 			if name in dirs:
 				dirs.remove(name)	# don't visit ignored directories
+		for dd in dirs:
+			if os.path.islink(os.path.join(root,  dd)):
+				dest = os.readlink(os.path.join(root, dd))
+				a  =  zipfile.ZipInfo()
+				a.filename  =  os.path.join(root, dd).replace(dir, basepath, 1)
+				a.create_system  =  3
+				a.external_attr  =  2716663808L
+				zf.writestr(a, dest)
 		for file in files:
 			if file in ignoreFiles: continue
 			e = os.path.splitext(file)
@@ -152,7 +160,15 @@ def zip_dir(zf,dir,basepath,ignore=[]):
 			if len(e) == 2 and e[1] == '.js': continue
 			from_ = os.path.join(root, file)
 			to_ = from_.replace(dir, basepath, 1)
-			zf.write(from_, to_)
+			if os.path.islink(from_):
+				dest = os.readlink(from_)
+				a = zipfile.ZipInfo()
+				a.filename = os.path.join(root, file).replace(dir, basepath, 1)
+				a.create_system  =  3
+				a.external_attr  =  2716663808L
+				zf.writestr(a, dest)
+			else:
+				zf.write(from_, to_)
 
 def glob_libfiles():
 	files = []

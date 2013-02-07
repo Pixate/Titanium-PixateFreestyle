@@ -41,7 +41,6 @@
 MAKE_SYSTEM_PROP(PXStylesheetOriginApplication, PXStylesheetOriginApplication);
 MAKE_SYSTEM_PROP(PXStylesheetOriginUser,        PXStylesheetOriginUser);
 MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
-MAKE_SYSTEM_PROP(PXStylesheetOriginInline,      PXStylesheetOriginInline);
 
 #pragma Pixate API
 

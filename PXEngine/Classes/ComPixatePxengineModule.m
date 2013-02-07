@@ -9,6 +9,7 @@
 #import "TiUtils.h"
 #import "TiUIView.h"
 #import "TiViewProxy.h"
+#import "Ti2DMatrix.h"
 
 #import <objc/runtime.h>
 #import <objc/message.h>
@@ -38,9 +39,9 @@
 #pragma Pixate enums
 
 MAKE_SYSTEM_PROP(PXStylesheetOriginApplication, PXStylesheetOriginApplication);
-MAKE_SYSTEM_PROP(PXStylesheetOriginUser, PXStylesheetOriginUser);
-MAKE_SYSTEM_PROP(PXStylesheetOriginView, PXStylesheetOriginView);
-MAKE_SYSTEM_PROP(PXStylesheetOriginInline, PXStylesheetOriginInline);
+MAKE_SYSTEM_PROP(PXStylesheetOriginUser,        PXStylesheetOriginUser);
+MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
+MAKE_SYSTEM_PROP(PXStylesheetOriginInline,      PXStylesheetOriginInline);
 
 #pragma Pixate API
 
@@ -181,6 +182,11 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginInline, PXStylesheetOriginInline);
 - (void)setStyleCSS_:(id)value
 {
     [self.accessibilityElement setStyleCSS:[TiUtils stringValue:value]];
+}
+
+- (void)px_set2DTransform:(NSValue *)transform
+{
+    [self setTransform_:[[Ti2DMatrix alloc] initWithMatrix:[transform CGAffineTransformValue]]];
 }
 
 @end

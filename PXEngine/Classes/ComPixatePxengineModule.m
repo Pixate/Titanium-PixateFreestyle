@@ -1,6 +1,8 @@
 //
-//  Created by Paul Colton on 9/13/12.
-//  Copyright (c) 2012 Pixate, Inc. All rights reserved.
+// Copyright (c) 2012-2013 Pixate, Inc. All rights reserved.
+//
+// This source may be not copied or reproduced without the explicit
+// permission of Pixate, Inc.
 //
 
 #import "ComPixatePxengineModule.h"

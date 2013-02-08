@@ -1,39 +1,11 @@
-// This is a test harness for your module
-// You should do something interesting in this harness 
-// to test out the module and to provide instructions 
-// to users on how to use it by example.
-
-
 // open a single window
 var win = Ti.UI.createWindow({
 	backgroundColor:'white'
 });
-var label = Ti.UI.createLabel();
+var label = Ti.UI.createLabel({ styleCss:'background-color: blue; color: white;'});
 win.add(label);
 win.open();
 
-// TODO: write your module tests here
-var PXEngine = require('com.pixate.pxengine');
+var pixate = require('com.pixate.pxengine');
 Ti.API.info("module is => " + PXEngine);
-
-label.text = PXEngine.example();
-
-Ti.API.info("module exampleProp is => " + PXEngine.exampleProp);
-PXEngine.exampleProp = "This is a test value";
-
-if (Ti.Platform.name == "android") {
-	var proxy = PXEngine.createExample({
-		message: "Creating an example Proxy",
-		backgroundColor: "red",
-		width: 100,
-		height: 100,
-		top: 100,
-		left: 150
-	});
-
-	proxy.printMessage("Hello world!");
-	proxy.message = "Hi world!.  It's me again.";
-	proxy.printMessage("Hello world!");
-	win.add(proxy);
-}
 

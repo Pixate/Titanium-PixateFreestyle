@@ -26,7 +26,7 @@
 		24DD6CFA1134B3F500162E58 /* ComPixatePxengineModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComPixatePxengineModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* ComPixatePxengineModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComPixatePxengineModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* ComPixatePxengineModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComPixatePxengineModuleAssets.m */; };
-		9CC19C3716C1DDD20041B7BD /* PXEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC19C3616C1DDD20041B7BD /* PXEngine.framework */; };
+		9C55A62816C437C500F0EDAB /* PXEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C55A62716C437C500F0EDAB /* PXEngine.framework */; };
 		AA747D9F0F9514B9006C5449 /* ComPixatePxengine_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComPixatePxengine_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -47,7 +47,7 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* ComPixatePxengineModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComPixatePxengineModuleAssets.h; path = Classes/ComPixatePxengineModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* ComPixatePxengineModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPixatePxengineModuleAssets.m; path = Classes/ComPixatePxengineModuleAssets.m; sourceTree = "<group>"; };
-		9CC19C3616C1DDD20041B7BD /* PXEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PXEngine.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/pixate-aoqzzvunjsvbizeulcsiekkrspie/Build/Products/Debug-iphoneos/PXEngine.framework"; sourceTree = "<group>"; };
+		9C55A62716C437C500F0EDAB /* PXEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PXEngine.framework; path = ../../../ios/Tools/work/PXEngine.framework; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComPixatePxengine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComPixatePxengine_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libComPixatePxengine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComPixatePxengine.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				9CC19C3716C1DDD20041B7BD /* PXEngine.framework in Frameworks */,
+				9C55A62816C437C500F0EDAB /* PXEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9CC19C3616C1DDD20041B7BD /* PXEngine.framework */,
+				9C55A62716C437C500F0EDAB /* PXEngine.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -229,6 +229,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/pixate-aoqzzvunjsvbizeulcsiekkrspie/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../../ios/Tools/work\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -279,6 +280,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/pixate-aoqzzvunjsvbizeulcsiekkrspie/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../../ios/Tools/work\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;

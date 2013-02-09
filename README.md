@@ -1,10 +1,8 @@
 # Titanium-Pixate Module v1.0.3
 
-**THIS IS AN EARLY RELEASE AND NOT YET PRODUCTION READY**
-
 ## Requirements
 
-The Titanium-Pixate module requires **Titanium 3.0.0.GA** or greater.
+The Titanium-Pixate module is included with the Pixate Engine distribution and requires **Titanium 3.0.0.GA** or greater.
 
 ## Installing the Module
 

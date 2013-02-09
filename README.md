@@ -153,5 +153,8 @@ With it's accompanying .css file:
 		background-color: linear-gradient(red,blue);
 	}
 
+## License
 
+Copyright (c) 2012-2013 Pixate, Inc. All rights reserved.
+This source may be not redistributed or reproduced without the explicit permission of Pixate, Inc.
 

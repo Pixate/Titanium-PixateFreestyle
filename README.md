@@ -8,7 +8,7 @@ The Titanium-Pixate module requires **Titanium 3.0.0.GA** or greater.
 
 ## Installing the Module
 
-See [Using Titanium Modules](https://wiki.appcelerator.org/display/tis/Using+Titanium+Modules) for information on how to install the module into your project.
+Unzip the module into your project's modules directory or install it globally. See [Using Titanium Modules](https://wiki.appcelerator.org/display/tis/Using+Titanium+Modules) for information on how to install the module globally.
 
 ## Configuting **tiapp.xml**
 
@@ -16,9 +16,20 @@ You can use the Ti Studio interface to add the Pixate Engine module into your pr
 
 	<module platform="iphone">com.pixate.pxengine</module>
 
-## Setting the License Information
+## Adding Pixate Engine Runtime & License Properties
 
-In your **tiapp.xml** file, add this section:
+If you are using the **Non-Commercial** version of Pixate Engine, add the following to your **tiapp.xml** file anywhere as a child of the root node:
+
+	<ios>
+	    <plist>
+	        <dict>
+	    		<key>PXTitanium</key>
+	    		<true/>
+	        </dict>
+	    </plist>
+	</ios>
+
+If you have a license **username** and **key**, then you'll need two additional entries as follows:
 
 	<ios>
 	    <plist>
@@ -69,17 +80,18 @@ When creating a control, just use **styleId**, **styleClass**, and/or **styleCSS
 	self.add(button2);
 
 
-If using Alloy, just set **styleId**, **styleClass**, and/or **styleCSS** in your XML:
+If using Alloy, just set **styleId**, **styleClass**, and/or **styleCSS** (yes, you can inline CSS) in your XML:
 
 	<Alloy> 
 		<Window class="container"> 
 			<Label id="label" styleId="myLabel" onClick="doClick">Hello, World</Label> 
+			<Button id="button" styleCSS='background-color: blue; color: white;' onClick="doClick">Click Me</Button>
 		</Window> 
 	</Alloy>
 
 ## CSS
 
-Add a **default.css** file into your project's **Resources** folder. Here's an example:
+Add a **default.css** file into your project's **Resources** folder. For Alloy users, add the file directly inside your **assets** folder. Here's an example CSS file:
 
 	#myLabel {
 	 color: blue;
@@ -103,3 +115,45 @@ Add a **default.css** file into your project's **Resources** folder. Here's an e
 	  border-radius: 20;
 	  color: red;
 	}
+
+## Alloy Users
+
+You can use your **.tss** files to layout your controls, or you can use just the **.css** files to do so. If using **.css** for layout, your **.tss** file needs to either **not** set the layout property or set it to **absolute**.
+
+	".container": {
+		layout: 'absolute'
+	}
+
+Here's a sample .xml file:
+
+	<Alloy>
+		<Window class="container" styleId='container'>
+			<Label id="label" styleId='myLabel' onClick="doClick">Hello, World</Label>
+			<Button id="button" styleId='myButton' onClick="doClick">Click Me</Button>
+		</Window>
+	</Alloy>
+
+With it's accompanying .css file:
+
+	#container {
+		background-color: linear-gradient(black,white);
+	}
+
+	#myLabel {
+	    color: blue;
+	    background-color: yellow;
+	  	position: 0 200;
+	    size: 100;
+	}
+
+	#myButton {
+		position: 0 100;
+		size: 100 50;
+		color: white;
+		border-radius: 10;
+		transform : rotate(45);
+		background-color: linear-gradient(red,blue);
+	}
+
+
+

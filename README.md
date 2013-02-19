@@ -157,5 +157,5 @@ With it's accompanying .css file:
 
 The Pixate Engine runtime included here is for demonstrations / trial use only. Please visit [Pixate.com](http://www.pixate.com) for licensing information.
 
-License for the included Demos is available in the accompanying [LICENSE.md](https://github.com/Pixate/Titanium-Pixate/blob/master/README.md) file.
+License for the included Demos is available in the accompanying [LICENSE.md](https://github.com/Pixate/Titanium-Pixate/blob/master/LICENSE.md) file.
 

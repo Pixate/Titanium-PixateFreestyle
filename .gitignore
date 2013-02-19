@@ -1,5 +1,2 @@
 .DS_Store
-PXEngine.framework
 .metadata
-*.zip
-/PXEngine/build/

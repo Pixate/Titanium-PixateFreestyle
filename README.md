@@ -2,13 +2,13 @@
 
 ## Requirements
 
-The Titanium-Pixate module is included with the Pixate Engine distribution and requires **Titanium 3.0.0.GA** or greater.
+The Titanium-Pixate module requires **Titanium 3.0.0.GA** or greater.
 
 ## Installing the Module
 
 Unzip the module into your project's modules directory or install it globally. See [Using Titanium Modules](https://wiki.appcelerator.org/display/tis/Using+Titanium+Modules) for information on how to install the module globally.
 
-## Configuting **tiapp.xml**
+## Configuring **tiapp.xml**
 
 You can use the Ti Studio interface to add the Pixate Engine module into your project, or just edit the tiapp.xml file directly and add this to your <modules> section:
 
@@ -169,6 +169,7 @@ The resulting zip file can found in the PXEngine directory.
 
 ## License
 
-Copyright (c) 2012-2013 Pixate, Inc. All rights reserved.
-This source may be not redistributed or reproduced without the explicit permission of Pixate, Inc.
+The Pixate Engine runtime included here is for demonstrations / trial use only. Please visit [Pixate.com](http://www.pixate.com) for licensing information.
+
+License for the included Demos is available in the accompanying [LICENSE.md](https://github.com/Pixate/Titanium-Pixate/blob/master/LICENSE.md) file.
 

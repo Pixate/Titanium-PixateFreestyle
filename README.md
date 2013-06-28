@@ -80,11 +80,11 @@ When creating a control, just use **styleId**, **styleClass**, and/or **styleCSS
 
 If using Alloy, just set **styleId**, **styleClass**, and/or **styleCSS** (yes, you can inline CSS) in your XML:
 
-	<Alloy> 
-		<Window class="container"> 
-			<Label id="label" styleId="myLabel" onClick="doClick">Hello, World</Label> 
+	<Alloy>
+		<Window class="container">
+			<Label id="label" styleId="myLabel" onClick="doClick">Hello, World</Label>
 			<Button id="button" styleCSS='background-color: blue; color: white;' onClick="doClick">Click Me</Button>
-		</Window> 
+		</Window>
 	</Alloy>
 
 ## CSS
@@ -152,6 +152,20 @@ With it's accompanying .css file:
 		transform : rotate(45);
 		background-color: linear-gradient(red,blue);
 	}
+
+
+## Build Instructions
+
+If you'd like to build the module yourself, this is the simple process. After cloning this project, start by creating a symbolic link to the PXEngine file from your Pixate distribution in the PXEngine folder. For example:
+
+    cd PXEngine
+	ln -s ~/Desktop/Pixate/Frameworks/PXEngine.framework ./PXEngine.framework
+
+Now just run build.py:
+
+	./build.py
+
+The resulting zip file can found in the PXEngine directory.
 
 ## License
 

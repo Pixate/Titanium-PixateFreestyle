@@ -1,2 +1,5 @@
 .DS_Store
 .metadata
+PXEngine/build
+PXEngine/PXEngine.framework
+

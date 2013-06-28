@@ -1,9 +1,20 @@
-//
-// Copyright (c) 2012-2013 Pixate, Inc. All rights reserved.
-//
-// This source may be not copied or reproduced without the explicit
-// permission of Pixate, Inc.
-//
+/*
+ *  Copyright (c) 2012-2013, Pixate, Inc
+ *  All rights reserved.
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 #import "ComPixatePxengineModule.h"
 #import "TiBase.h"
@@ -49,10 +60,10 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 - (void)styleSheetFromFilePathWithOrigin:(id)args
 {
     ENSURE_SINGLE_ARG(args, NSDictionary);
-    
+
     NSString *aFilePath = [TiUtils stringValue:[args valueForKey:@"filename"]];
     int       origin    = [TiUtils intValue:[args valueForKey:@"origin"]];
-    
+
     PXStylesheet *pxs = [PXEngine styleSheetFromFilePath:aFilePath withOrigin:origin];
 
     if([args valueForKey:@"monitor"] != nil)
@@ -64,10 +75,10 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 - (void)styleSheetFromSourceWithOrigin:(id)args
 {
     ENSURE_SINGLE_ARG(args, NSDictionary);
-    
+
     NSString *source = [TiUtils stringValue:[args valueForKey:@"source"]];
     int       origin    = [TiUtils intValue:[args valueForKey:@"origin"]];
-    
+
     [PXEngine styleSheetFromSource:source withOrigin:origin];
 }
 
@@ -149,7 +160,7 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 	Class c = self;
     Method origMethod = class_getInstanceMethod(c, orig_sel);
     Method altMethod = class_getInstanceMethod(c, alt_sel);
-    
+
     if (class_addMethod(c, orig_sel, method_getImplementation(altMethod), method_getTypeEncoding(altMethod)))
     {
         class_replaceMethod(c, alt_sel, method_getImplementation(origMethod), method_getTypeEncoding(origMethod));

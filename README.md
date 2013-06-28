@@ -169,7 +169,5 @@ The resulting zip file can found in the PXEngine directory.
 
 ## License
 
-The Pixate Engine runtime included here is for demonstrations / trial use only. Please visit [Pixate.com](http://www.pixate.com) for licensing information.
-
-License for the included Demos is available in the accompanying [LICENSE.md](https://github.com/Pixate/Titanium-Pixate/blob/master/LICENSE.md) file.
+License for the included source is available in the accompanying [LICENSE](https://github.com/Pixate/Titanium-Pixate/blob/master/PXEngine/LICENSE) file.
 

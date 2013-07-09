@@ -2,13 +2,13 @@
 
 ## Requirements
 
-The Titanium-Pixate module is included with the Pixate Engine distribution and requires **Titanium 3.0.0.GA** or greater.
+The Titanium-Pixate module requires **Titanium 3.0.0.GA** or greater.
 
 ## Installing the Module
 
 Unzip the module into your project's modules directory or install it globally. See [Using Titanium Modules](https://wiki.appcelerator.org/display/tis/Using+Titanium+Modules) for information on how to install the module globally.
 
-## Configuting **tiapp.xml**
+## Configuring **tiapp.xml**
 
 You can use the Ti Studio interface to add the Pixate Engine module into your project, or just edit the tiapp.xml file directly and add this to your <modules> section:
 
@@ -80,11 +80,11 @@ When creating a control, just use **styleId**, **styleClass**, and/or **styleCSS
 
 If using Alloy, just set **styleId**, **styleClass**, and/or **styleCSS** (yes, you can inline CSS) in your XML:
 
-	<Alloy> 
-		<Window class="container"> 
-			<Label id="label" styleId="myLabel" onClick="doClick">Hello, World</Label> 
+	<Alloy>
+		<Window class="container">
+			<Label id="label" styleId="myLabel" onClick="doClick">Hello, World</Label>
 			<Button id="button" styleCSS='background-color: blue; color: white;' onClick="doClick">Click Me</Button>
-		</Window> 
+		</Window>
 	</Alloy>
 
 ## CSS
@@ -153,8 +153,21 @@ With it's accompanying .css file:
 		background-color: linear-gradient(red,blue);
 	}
 
+
+## Build Instructions
+
+If you'd like to build the module yourself, this is the simple process. After cloning this project, start by creating a symbolic link to the PXEngine file from your Pixate distribution in the PXEngine folder. For example:
+
+    cd PXEngine
+	ln -s ~/Desktop/Pixate/Frameworks/PXEngine.framework ./PXEngine.framework
+
+Now just run build.py:
+
+	./build.py
+
+The resulting zip file can found in the PXEngine directory.
+
 ## License
 
-Copyright (c) 2012-2013 Pixate, Inc. All rights reserved.
-This source may be not redistributed or reproduced without the explicit permission of Pixate, Inc.
+License for the included source is available in the accompanying [LICENSE](https://github.com/Pixate/Titanium-Pixate/blob/master/PXEngine/LICENSE) file.
 

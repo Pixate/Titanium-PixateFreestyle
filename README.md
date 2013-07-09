@@ -167,6 +167,11 @@ Now just run build.py:
 
 The resulting zip file can found in the PXEngine directory.
 
+### Common Build errors
+
+* If you see an error that 'PXEngine/PXEngine.h' could not be found, then you may be missing the symbolic link to PXEngine.framework or it may be pointing to an invalid location. This will also show as an error coming from CompileC
+* If you see an error about a missing "tools" module, then your TITANIUM_SDK environment variable may not be pointing to your Titanium installation.
+
 ## License
 
 License for the included source is available in the accompanying [LICENSE](https://github.com/Pixate/Titanium-Pixate/blob/master/PXEngine/LICENSE) file.

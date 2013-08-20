@@ -159,7 +159,7 @@ With it's accompanying .css file:
 If you'd like to build the module yourself, this is the simple process. After cloning this project, start by creating a symbolic link to the PXEngine file from your Pixate distribution in the PXEngine folder. For example:
 
     cd PXEngine
-	ln -s ~/Desktop/Pixate/Frameworks/PXEngine.framework ./PXEngine.framework
+	ln -s ~/Desktop/Pixate/Framework/PXEngine.framework ./PXEngine.framework
 
 Now just run build.py:
 

@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# stop if we encounter an error
+set -e
+
+# check args
+if [ $# -ne 1 ] && [ $# -ne 2 ]; then
+    echo "usage: $0 <build-workspace> [<configuration]"
+    echo "  configuration: Debug or Release, defaults to Release"
+    exit 1
+fi
+
+# set variables
+BUILD_WORKSPACE="$1"
+CONFIGURATION="${2:-Release}"
+OUTPUT_DIR="${BUILD_WORKSPACE}/Frameworks/Titanium"
+PXENGINE_FRAMEWORK="${BUILD_WORKSPACE}/build.sym/${CONFIGURATION}-iphonesimulator/PXEngine.framework"
+TITANIUM_BUILD_DIR="PXEngine"
+TITANIUM_MOD_VERSION=$(grep "^version:" ${TITANIUM_BUILD_DIR}/manifest | sed 's/^version: //g')
+TITANIUM_ZIP_FILE="${TITANIUM_BUILD_DIR}/com.pixate.pxengine-iphone-${TITANIUM_MOD_VERSION}.zip"
+
+# remove any pre-existing build artifacts
+rm -rf "${TITANIUM_BUILD_DIR}/PXEngine.framework"
+rm -f "${TITANIUM_ZIP_FILE}"
+
+# link PXEngine
+ln -s "${PXENGINE_FRAMEWORK}" "${TITANIUM_BUILD_DIR}/PXEngine.framework"
+
+# build zip file
+(cd "${TITANIUM_BUILD_DIR}"; ./build.py)
+
+# create output dir
+rm -rf "${OUTPUT_DIR}"
+mkdir -p "${OUTPUT_DIR}"
+
+# move zip file
+mv "${TITANIUM_ZIP_FILE}" "${OUTPUT_DIR}"

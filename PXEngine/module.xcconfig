@@ -25,5 +25,5 @@
 //
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
-OTHER_LDFLAGS=$(inherited) -framework PXEngine
+OTHER_LDFLAGS=$(inherited) -framework PXEngine -framework CoreText
 FRAMEWORK_SEARCH_PATHS=$(inherited) $(LIBRARY_SEARCH_PATHS)

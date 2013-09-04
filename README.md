@@ -1,4 +1,4 @@
-# Titanium-Pixate Module v1.0.3
+# Titanium-Pixate Module
 
 ## Requirements
 

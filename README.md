@@ -156,24 +156,24 @@ With it's accompanying .css file:
 
 ## Build Instructions
 
-If you'd like to build the module yourself, this is the simple process. After cloning this project, start by creating a symbolic link to the PXEngine file from your Pixate distribution in the PXEngine folder. For example:
+If you'd like to build the module yourself, this is the simple process. After cloning this project, start by creating a symbolic link to the Pixate file from your Pixate distribution in the Pixate folder. For example:
 
-    cd PXEngine
-	ln -s ~/Desktop/Pixate/Framework/PXEngine.framework ./PXEngine.framework
+    cd Pixate
+	ln -s ~/Desktop/Pixate/Framework/Pixate.framework ./Pixate.framework
 
 Now just run build.py:
 
 	./build.py
 
-The resulting zip file can found in the PXEngine directory.
+The resulting zip file can found in the Pixate directory.
 
 ### Common Build errors
 
-* If you see an error that 'PXEngine/PXEngine.h' could not be found, then you may be missing the symbolic link to PXEngine.framework or it may be pointing to an invalid location. This will also show as an error coming from CompileC
+* If you see an error that 'Pixate/Pixate.h' could not be found, then you may be missing the symbolic link to Pixate.framework or it may be pointing to an invalid location. This will also show as an error coming from CompileC
 * If you see an error about a missing "tools" module, then your TITANIUM_SDK environment variable may not be pointing to your Titanium installation. You can update the SDK path and version in the titanium.xcconfig file. Be sure to verify if your SDK has been installed in /Library/... versus ~/Library and update TITANIUM_SDK accordingly.
 * Xcode may need to be closed if you encounter CompileC errors
 
 ## License
 
-License for the included source is available in the accompanying [LICENSE](https://github.com/Pixate/Titanium-Pixate/blob/master/PXEngine/LICENSE) file.
+License for the included source is available in the accompanying [LICENSE](https://github.com/Pixate/Titanium-Pixate/blob/master/Pixate/LICENSE) file.
 

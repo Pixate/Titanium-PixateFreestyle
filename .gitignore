@@ -1,6 +1,6 @@
 .DS_Store
 .metadata
-PXEngine/build
-PXEngine/PXEngine.framework
-PXEngine/com.pixate.pxengine-*.zip
+Pixate/build
+Pixate/PXEngine.framework
+Pixate/com.pixate.pxengine-*.zip
 

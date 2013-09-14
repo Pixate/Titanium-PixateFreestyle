@@ -171,7 +171,7 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
     }
 }
 
-@end
+@end  
 
 ////////
 
@@ -199,6 +199,58 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 - (void)px_set2DTransform:(NSValue *)transform
 {
     [self setTransform_:[[Ti2DMatrix alloc] initWithMatrix:[transform CGAffineTransformValue]]];
+}
+
+- (void)px_setLayoutInfo:(NSValue *)frame transform:(NSValue *)transform
+{
+    CGRect frame_ = [frame CGRectValue];
+    CGPoint origin_ = frame_.origin;
+    CGSize size_ = frame_.size;
+    CGAffineTransform transform_ = CGAffineTransformIdentity;
+    
+    [transform getValue:&transform_];
+    
+    if(CGAffineTransformIsIdentity(transform_) == NO) // && [self isKindOfClass:[UIView class]])
+    {
+        [self setTransform_:[[Ti2DMatrix alloc] initWithMatrix:CGAffineTransformIdentity]];
+    }
+    
+    // use Ti API to get to proxy
+    TiProxy *tiProxy = self.proxy;
+    
+    NSLog(@"tiProxy is %@", tiProxy);
+    
+    if([tiProxy isKindOfClass:[TiViewProxy class]])
+    {
+        TiViewProxy *viewProxy = (TiViewProxy *)tiProxy;
+        
+        // Use Ti API to set the 4 settings
+        if(origin_.x != MAXFLOAT)
+        {
+            [viewProxy setLeft:[NSNumber numberWithFloat:origin_.x]];
+//            [proxy performSelector:@selector(setLeft:) withObject:[NSNumber numberWithFloat:context.left]];
+        }
+        if(origin_.y != MAXFLOAT)
+        {
+            [viewProxy setTop:[NSNumber numberWithFloat:origin_.y]];
+//            [proxy performSelector:@selector(setTop:) withObject:[NSNumber numberWithFloat:context.top]];
+        }
+        if(size_.width != 0.0f)
+        {
+            [viewProxy setWidth:[NSNumber numberWithFloat:size_.width]];
+//            [proxy performSelector:@selector(setWidth:) withObject:[NSNumber numberWithFloat:context.width]];
+        }
+        if(size_.height != 0.0f)
+        {
+            [viewProxy setHeight:[NSNumber numberWithFloat:size_.height]];
+//            [proxy performSelector:@selector(setHeight:) withObject:[NSNumber numberWithFloat:context.height]];
+        }
+    }
+    
+    if(CGAffineTransformIsIdentity(transform_) == NO) // && [self isKindOfClass:[UIView class]])
+    {
+        [self setTransform_:[[Ti2DMatrix alloc] initWithMatrix:transform_]];
+    }
 }
 
 @end

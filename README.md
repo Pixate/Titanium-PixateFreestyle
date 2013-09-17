@@ -12,7 +12,7 @@ Unzip the module into your project's modules directory or install it globally. S
 
 You can use the Ti Studio interface to add the Pixate Engine module into your project, or just edit the tiapp.xml file directly and add this to your <modules> section:
 
-	<module platform="iphone">com.pixate.pixate</module>
+	<module platform="iphone">com.pixate.pxengine</module>
 
 ## Adding Pixate Engine Runtime & License Properties
 

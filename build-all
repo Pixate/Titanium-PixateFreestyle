@@ -14,17 +14,17 @@ fi
 BUILD_WORKSPACE="$1"
 CONFIGURATION="${2:-Release}"
 OUTPUT_DIR="${BUILD_WORKSPACE}/Frameworks/Titanium"
-PXENGINE_FRAMEWORK="${BUILD_WORKSPACE}/build.sym/${CONFIGURATION}-iphonesimulator/PXEngine.framework"
-TITANIUM_BUILD_DIR="PXEngine"
+PXENGINE_FRAMEWORK="${BUILD_WORKSPACE}/build.sym/${CONFIGURATION}-iphonesimulator/Pixate.framework"
+TITANIUM_BUILD_DIR="Pixate"
 TITANIUM_MOD_VERSION=$(grep "^version:" ${TITANIUM_BUILD_DIR}/manifest | sed 's/^version: //g')
 TITANIUM_ZIP_FILE="${TITANIUM_BUILD_DIR}/com.pixate.pxengine-iphone-${TITANIUM_MOD_VERSION}.zip"
 
 # remove any pre-existing build artifacts
-rm -rf "${TITANIUM_BUILD_DIR}/PXEngine.framework"
+rm -rf "${TITANIUM_BUILD_DIR}/Pixate.framework"
 rm -f "${TITANIUM_ZIP_FILE}"
 
-# link PXEngine
-ln -s "${PXENGINE_FRAMEWORK}" "${TITANIUM_BUILD_DIR}/PXEngine.framework"
+# link Pixate
+ln -s "${PXENGINE_FRAMEWORK}" "${TITANIUM_BUILD_DIR}/Pixate.framework"
 
 # build zip file
 (cd "${TITANIUM_BUILD_DIR}"; ./build.py)

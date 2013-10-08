@@ -218,8 +218,6 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
     // use Ti API to get to proxy
     TiProxy *tiProxy = self.proxy;
     
-    NSLog(@"tiProxy is %@", tiProxy);
-    
     if([tiProxy isKindOfClass:[TiViewProxy class]])
     {
         TiViewProxy *viewProxy = (TiViewProxy *)tiProxy;

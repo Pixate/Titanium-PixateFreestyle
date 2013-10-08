@@ -84,7 +84,13 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 
 - (void)applyStylesheets:(id)args
 {
+    NSLog(@"[Pixate applyStylesheets] has been deprecated and has been replaced by [Pixate updateStylesForAllViews]")
     [Pixate applyStylesheets];
+}
+
++ (void)updateStylesForAllViews
+{
+    [Pixate updateStylesForAllViews];
 }
 
 - (id)refreshStylesWithOrientationChange

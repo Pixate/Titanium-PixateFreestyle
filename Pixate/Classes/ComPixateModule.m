@@ -88,7 +88,7 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
     [Pixate applyStylesheets];
 }
 
-+ (void)updateStylesForAllViews
+- (void)updateStylesForAllViews
 {
     [Pixate updateStylesForAllViews];
 }
@@ -113,12 +113,12 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
     return Pixate.buildDate;
 }
 
-+(NSString *)licenseEmail
+- (NSString *)licenseEmail
 {
     return Pixate.licenseEmail;
 }
 
-+(NSString *)licenseKey
+- (NSString *)licenseKey
 {
     return Pixate.licenseKey;
 }
@@ -177,7 +177,7 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
     }
 }
 
-@end  
+@end
 
 ////////
 
@@ -213,21 +213,21 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
     CGPoint origin_ = frame_.origin;
     CGSize size_ = frame_.size;
     CGAffineTransform transform_ = CGAffineTransformIdentity;
-    
+
     [transform getValue:&transform_];
-    
+
     if(CGAffineTransformIsIdentity(transform_) == NO) // && [self isKindOfClass:[UIView class]])
     {
         [self setTransform_:[[Ti2DMatrix alloc] initWithMatrix:CGAffineTransformIdentity]];
     }
-    
+
     // use Ti API to get to proxy
     TiProxy *tiProxy = self.proxy;
-    
+
     if([tiProxy isKindOfClass:[TiViewProxy class]])
     {
         TiViewProxy *viewProxy = (TiViewProxy *)tiProxy;
-        
+
         // Use Ti API to set the 4 settings
         if(origin_.x != MAXFLOAT)
         {
@@ -250,7 +250,7 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 //            [proxy performSelector:@selector(setHeight:) withObject:[NSNumber numberWithFloat:context.height]];
         }
     }
-    
+
     if(CGAffineTransformIsIdentity(transform_) == NO) // && [self isKindOfClass:[UIView class]])
     {
         [self setTransform_:[[Ti2DMatrix alloc] initWithMatrix:transform_]];

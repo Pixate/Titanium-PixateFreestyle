@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 2.0.0RC1
+version: 2.0.0RC2
 apiversion: 1
 description: Titanium-Pixate Integration Library
 author: Pixate, Inc.

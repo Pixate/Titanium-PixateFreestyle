@@ -7,5 +7,5 @@ win.add(label);
 win.open();
 
 var pixate = require('com.pixate.pxengine');
-Ti.API.info("module is => " + Pixate);
+Ti.API.info("module is => " + pixate);
 

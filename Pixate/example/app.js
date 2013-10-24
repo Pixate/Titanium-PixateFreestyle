@@ -1,11 +1,39 @@
+// This is a test harness for your module
+// You should do something interesting in this harness 
+// to test out the module and to provide instructions 
+// to users on how to use it by example.
+
+
 // open a single window
 var win = Ti.UI.createWindow({
 	backgroundColor:'white'
 });
-var label = Ti.UI.createLabel({ styleCss:'background-color: blue; color: white;'});
+var label = Ti.UI.createLabel();
 win.add(label);
 win.open();
 
-var pixate = require('com.pixate.pxengine');
-Ti.API.info("module is => " + pixate);
+// TODO: write your module tests here
+var PixateFramework = require('com.pixate.framework');
+Ti.API.info("module is => " + PixateFramework);
+
+label.text = PixateFramework.example();
+
+Ti.API.info("module exampleProp is => " + PixateFramework.exampleProp);
+PixateFramework.exampleProp = "This is a test value";
+
+if (Ti.Platform.name == "android") {
+	var proxy = PixateFramework.createExample({
+		message: "Creating an example Proxy",
+		backgroundColor: "red",
+		width: 100,
+		height: 100,
+		top: 100,
+		left: 150
+	});
+
+	proxy.printMessage("Hello world!");
+	proxy.message = "Hi world!.  It's me again.";
+	proxy.printMessage("Hello world!");
+	win.add(proxy);
+}
 

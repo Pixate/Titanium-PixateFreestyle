@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B8087B6A-63A9-479C-9402-F325633DE137</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PixateFramework</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>21B5AEDB-0CF3-46B6-9ACF-5F1E07EE49F3</key>
+		<string>ssh://github.com/Pixate/Titanium-Pixate</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pixate/PixateFramework.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>21B5AEDB-0CF3-46B6-9ACF-5F1E07EE49F3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Pixate/Titanium-Pixate</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>21B5AEDB-0CF3-46B6-9ACF-5F1E07EE49F3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>21B5AEDB-0CF3-46B6-9ACF-5F1E07EE49F3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Titanium-Pixate</string>
+		</dict>
+	</array>
+</dict>
+</plist>

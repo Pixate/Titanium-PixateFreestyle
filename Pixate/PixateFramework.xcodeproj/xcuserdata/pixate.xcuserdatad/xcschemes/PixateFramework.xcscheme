@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2AAC07D0554694100DB518D"
-               BuildableName = "libComPixate.a"
-               BlueprintName = "Pixate"
-               ReferencedContainer = "container:Pixate.xcodeproj">
+               BuildableName = "libComPixateFramework.a"
+               BlueprintName = "PixateFramework"
+               ReferencedContainer = "container:PixateFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

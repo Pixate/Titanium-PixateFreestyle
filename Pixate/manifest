@@ -2,8 +2,8 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 2.0.0RC2
-apiversion: 1
+version: 2.0.0RC3
+apiversion: 2
 description: Titanium-Pixate Integration Library
 author: Pixate, Inc.
 license: Pixate Commercial License Agreement - No Redistribution Allowed
@@ -11,8 +11,8 @@ copyright: (c) 2012-2013 Pixate, Inc. - All Rights Reserved
 
 
 # these should not be edited
-name: Pixate
-moduleid: com.pixate.pxengine
-guid: e7b14a43-901c-41eb-9b25-76e859290cdd
+name: PixateFramework
+moduleid: com.pixate.framework
+guid: 335fc77b-2f61-472d-9c47-9038a90e4b55
 platform: iphone
 minsdk: 3.0.0.GA

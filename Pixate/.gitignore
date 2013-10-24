@@ -1,2 +1,5 @@
 Pixate.framework
+tmp
+bin
+build
 *.zip

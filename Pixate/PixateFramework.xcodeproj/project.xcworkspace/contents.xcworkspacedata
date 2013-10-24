@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Pixate.xcodeproj">
+      location = "self:PixateFramework.xcodeproj">
    </FileRef>
 </Workspace>

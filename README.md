@@ -10,24 +10,13 @@ Unzip the module into your project's modules directory or install it globally. S
 
 ## Configuring **tiapp.xml**
 
-You can use the Ti Studio interface to add the Pixate Engine module into your project, or just edit the tiapp.xml file directly and add this to your <modules> section:
+You can use the Ti Studio interface to add the Pixate module into your project, or just edit the tiapp.xml file directly and add this to your <modules> section:
 
-	<module platform="iphone">com.pixate.pxengine</module>
+	<module platform="iphone">com.pixate.framework</module>
 
-## Adding Pixate Engine Runtime & License Properties
+## Adding the Pixate Runtime & License Properties
 
-If you are using the **Non-Commercial** version of Pixate Engine, add the following to your **tiapp.xml** file anywhere as a child of the root node:
-
-	<ios>
-	    <plist>
-	        <dict>
-	    		<key>PXTitanium</key>
-	    		<true/>
-	        </dict>
-	    </plist>
-	</ios>
-
-If you have a license **username** and **key**, then you'll need two additional entries as follows:
+Once you acquired your free license key from [Pixate](http://download.pixate.com/key), you'll need two additional entries in your tipapp.xml, as follows.
 
 	<ios>
 	    <plist>
@@ -42,12 +31,11 @@ If you have a license **username** and **key**, then you'll need two additional 
 	    </plist>
 	</ios>
 
-Be sure to substitute **LICENSE USERNAME** and **LICENSE KEY** with the information you received from the Pixate store.
+Be sure to substitute **LICENSE USERNAME** and **LICENSE KEY** with the information you received from Pixate.
 
 ## Styling your Controls
 
 When creating a control, just use **styleId**, **styleClass**, and/or **styleCSS**. For example:
-
 
 	var label = Ti.UI.createLabel({
 		text:String.format(L('welcome'),'Titanium'),

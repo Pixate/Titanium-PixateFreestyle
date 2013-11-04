@@ -56,12 +56,12 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 - (void)styleSheetFromFilePathWithOrigin:(id)args
 {
     ENSURE_SINGLE_ARG(args, NSDictionary);
-    
+
     NSString *aFilePath = [TiUtils stringValue:[args valueForKey:@"filename"]];
     int       origin    = [TiUtils intValue:[args valueForKey:@"origin"]];
-    
+
     PXStylesheet *pxs = [Pixate styleSheetFromFilePath:aFilePath withOrigin:origin];
-    
+
     if([args valueForKey:@"monitor"] != nil)
     {
         [pxs setMonitorChanges:[TiUtils boolValue:[args valueForKey:@"monitor"]]];
@@ -71,10 +71,10 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 - (void)styleSheetFromSourceWithOrigin:(id)args
 {
     ENSURE_SINGLE_ARG(args, NSDictionary);
-    
+
     NSString *source = [TiUtils stringValue:[args valueForKey:@"source"]];
     int       origin    = [TiUtils intValue:[args valueForKey:@"origin"]];
-    
+
     [Pixate styleSheetFromSource:source withOrigin:origin];
 }
 
@@ -162,7 +162,7 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 	Class c = self;
     Method origMethod = class_getInstanceMethod(c, orig_sel);
     Method altMethod = class_getInstanceMethod(c, alt_sel);
-    
+
     if (class_addMethod(c, orig_sel, method_getImplementation(altMethod), method_getTypeEncoding(altMethod)))
     {
         class_replaceMethod(c, alt_sel, method_getImplementation(origMethod), method_getTypeEncoding(origMethod));
@@ -209,21 +209,21 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
     CGPoint origin_ = frame_.origin;
     CGSize size_ = frame_.size;
     CGAffineTransform transform_ = CGAffineTransformIdentity;
-    
+
     [transform getValue:&transform_];
-    
+
     if(CGAffineTransformIsIdentity(transform_) == NO) // && [self isKindOfClass:[UIView class]])
     {
         [self setTransform_:[[Ti2DMatrix alloc] initWithMatrix:CGAffineTransformIdentity]];
     }
-    
+
     // use Ti API to get to proxy
     TiProxy *tiProxy = self.proxy;
-    
+
     if([tiProxy isKindOfClass:[TiViewProxy class]])
     {
         TiViewProxy *viewProxy = (TiViewProxy *)tiProxy;
-        
+
         // Use Ti API to set the 4 settings
         if(origin_.x != MAXFLOAT)
         {
@@ -246,7 +246,7 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
             //            [proxy performSelector:@selector(setHeight:) withObject:[NSNumber numberWithFloat:context.height]];
         }
     }
-    
+
     if(CGAffineTransformIsIdentity(transform_) == NO) // && [self isKindOfClass:[UIView class]])
     {
         [self setTransform_:[[Ti2DMatrix alloc] initWithMatrix:transform_]];
@@ -260,7 +260,7 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 	// this method is called when the module is first loaded
 	// you *must* call the superclass
 	[super startup];
-	
+
 	NSLog(@"[INFO] %@ loaded",self);
 }
 
@@ -269,12 +269,12 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 	// this method is called when the module is being unloaded
 	// typically this is during shutdown. make sure you don't do too
 	// much processing here or the app will be quit forceably
-	
+
 	// you *must* call the superclass
 	[super shutdown:sender];
 }
 
-#pragma mark Cleanup 
+#pragma mark Cleanup
 
 -(void)dealloc
 {
@@ -289,46 +289,6 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 	// optionally release any resources that can be dynamically
 	// reloaded once memory is available - such as caches
 	[super didReceiveMemoryWarning:notification];
-}
-
-#pragma mark Listener Notifications
-
--(void)_listenerAdded:(NSString *)type count:(int)count
-{
-	if (count == 1 && [type isEqualToString:@"my_event"])
-	{
-		// the first (of potentially many) listener is being added 
-		// for event named 'my_event'
-	}
-}
-
--(void)_listenerRemoved:(NSString *)type count:(int)count
-{
-	if (count == 0 && [type isEqualToString:@"my_event"])
-	{
-		// the last listener called for event named 'my_event' has
-		// been removed, we can optionally clean up any resources
-		// since no body is listening at this point for that event
-	}
-}
-
-#pragma Public APIs
-
--(id)example:(id)args
-{
-	// example method
-	return @"hello world";
-}
-
--(id)exampleProp
-{
-	// example property getter
-	return @"hello world";
-}
-
--(void)setExampleProp:(id)value
-{
-	// example property setter
 }
 
 @end

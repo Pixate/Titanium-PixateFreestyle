@@ -34,13 +34,13 @@
 // this is generated for your module, please do not change it
 -(id)moduleGUID
 {
-	return @"335fc77b-2f61-472d-9c47-9038a90e4b55";
+	return @"006304b0-0607-4bca-b328-911e6fe81915";
 }
 
 // this is generated for your module, please do not change it
 -(NSString*)moduleId
 {
-	return @"com.pixate.framework";
+	return @"com.pixate.pixatefreestyle";
 }
 
 #pragma Pixate enums

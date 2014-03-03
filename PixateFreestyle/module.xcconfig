@@ -9,7 +9,6 @@
 
 TITANIUM_SDK=/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.2.1.GA
 
-
 //
 // How to add a Framework (example)
 //
@@ -28,5 +27,5 @@ TITANIUM_SDK=/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3
 //
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
-OTHER_LDFLAGS=$(inherited) -framework Pixate -framework CoreText
+OTHER_LDFLAGS=$(inherited) -framework PixateFreestyle -framework CoreText
 FRAMEWORK_SEARCH_PATHS=$(inherited) $(LIBRARY_SEARCH_PATHS)

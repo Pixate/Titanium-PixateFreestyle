@@ -24,3 +24,7 @@ DerivedData
 *.xccheckout
 
 
+
+/PixateFreestyle/PixateFreestyle.framework
+
+/PixateFreestyle/PixateFreestyle.xcodeproj/project.xcworkspace/xcuserdata/pcolton.xcuserdatad/UserInterfaceState.xcuserstate

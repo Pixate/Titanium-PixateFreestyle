@@ -22,12 +22,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		24DD6CF91134B3F500162E58 /* ComPixateFrameworkModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComPixateFrameworkModule.h */; };
-		24DD6CFA1134B3F500162E58 /* ComPixateFrameworkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComPixateFrameworkModule.m */; };
-		24DE9E1111C5FE74003F90F6 /* ComPixateFrameworkModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComPixateFrameworkModuleAssets.h */; };
-		24DE9E1211C5FE74003F90F6 /* ComPixateFrameworkModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComPixateFrameworkModuleAssets.m */; };
-		6BDB60B818283DDE000A9C64 /* Pixate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDB60B718283DDE000A9C64 /* Pixate.framework */; };
-		AA747D9F0F9514B9006C5449 /* ComPixateFramework_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComPixateFramework_Prefix.pch */; };
+		24DD6CF91134B3F500162E58 /* ComPixateFreestyleModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComPixateFreestyleModule.h */; };
+		24DD6CFA1134B3F500162E58 /* ComPixateFreestyleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComPixateFreestyleModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.m */; };
+		9CAA08FB18C50C2800096D89 /* PixateFreestyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAA08FA18C50C2800096D89 /* PixateFreestyle.framework */; };
+		AA747D9F0F9514B9006C5449 /* ComPixateFreestyle_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComPixateFreestyle_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,15 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* ComPixateFrameworkModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComPixateFrameworkModule.h; path = Classes/ComPixateFrameworkModule.h; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* ComPixateFrameworkModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPixateFrameworkModule.m; path = Classes/ComPixateFrameworkModule.m; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* ComPixateFreestyleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComPixateFreestyleModule.h; path = Classes/ComPixateFreestyleModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComPixateFreestyleModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPixateFreestyleModule.m; path = Classes/ComPixateFreestyleModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* ComPixateFrameworkModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComPixateFrameworkModuleAssets.h; path = Classes/ComPixateFrameworkModuleAssets.h; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* ComPixateFrameworkModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPixateFrameworkModuleAssets.m; path = Classes/ComPixateFrameworkModuleAssets.m; sourceTree = "<group>"; };
-		6BDB60B718283DDE000A9C64 /* Pixate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pixate.framework; path = ../../../../../Desktop/Pixate.framework; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* ComPixateFramework_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComPixateFramework_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		24DE9E0F11C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComPixateFreestyleModuleAssets.h; path = Classes/ComPixateFreestyleModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPixateFreestyleModuleAssets.m; path = Classes/ComPixateFreestyleModuleAssets.m; sourceTree = "<group>"; };
+		9CAA08FA18C50C2800096D89 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PixateFreestyle.framework; path = ../../../../../Documents/PixateFreestyle/PixateFreestyle.framework; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComPixateFreestyle_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComPixateFreestyle_Prefix.pch; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libComPixateFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComPixateFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libComPixateFreestyle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComPixateFreestyle.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BDB60B818283DDE000A9C64 /* Pixate.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				9CAA08FB18C50C2800096D89 /* PixateFreestyle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +69,7 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libComPixateFramework.a */,
+				D2AAC07E0554694100DB518D /* libComPixateFreestyle.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6BDB60B718283DDE000A9C64 /* Pixate.framework */,
+				9CAA08FA18C50C2800096D89 /* PixateFreestyle.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -97,10 +97,10 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				24DE9E0F11C5FE74003F90F6 /* ComPixateFrameworkModuleAssets.h */,
-				24DE9E1011C5FE74003F90F6 /* ComPixateFrameworkModuleAssets.m */,
-				24DD6CF71134B3F500162E58 /* ComPixateFrameworkModule.h */,
-				24DD6CF81134B3F500162E58 /* ComPixateFrameworkModule.m */,
+				24DE9E0F11C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* ComPixateFreestyleModule.h */,
+				24DD6CF81134B3F500162E58 /* ComPixateFreestyleModule.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA747D9E0F9514B9006C5449 /* ComPixateFramework_Prefix.pch */,
+				AA747D9E0F9514B9006C5449 /* ComPixateFreestyle_Prefix.pch */,
 				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
 			);
 			name = "Other Sources";
@@ -121,18 +121,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA747D9F0F9514B9006C5449 /* ComPixateFramework_Prefix.pch in Headers */,
-				24DD6CF91134B3F500162E58 /* ComPixateFrameworkModule.h in Headers */,
-				24DE9E1111C5FE74003F90F6 /* ComPixateFrameworkModuleAssets.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* ComPixateFreestyle_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* ComPixateFreestyleModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D2AAC07D0554694100DB518D /* PixateFramework */ = {
+		D2AAC07D0554694100DB518D /* PixateFreestyle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "PixateFramework" */;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "PixateFreestyle" */;
 			buildPhases = (
 				D2AAC07A0554694100DB518D /* Headers */,
 				D2AAC07B0554694100DB518D /* Sources */,
@@ -142,9 +142,9 @@
 			);
 			dependencies = (
 			);
-			name = PixateFramework;
+			name = PixateFreestyle;
 			productName = PixateFramework;
-			productReference = D2AAC07E0554694100DB518D /* libComPixateFramework.a */;
+			productReference = D2AAC07E0554694100DB518D /* libComPixateFreestyle.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +154,7 @@
 			isa = PBXProject;
 			attributes = {
 			};
-			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "PixateFramework" */;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "PixateFreestyle" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -169,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC07D0554694100DB518D /* PixateFramework */,
+				D2AAC07D0554694100DB518D /* PixateFreestyle */,
 				24416B8111C4CA220047AFDD /* Build & Test */,
 			);
 		};
@@ -196,8 +196,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD6CFA1134B3F500162E58 /* ComPixateFrameworkModule.m in Sources */,
-				24DE9E1211C5FE74003F90F6 /* ComPixateFrameworkModuleAssets.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* ComPixateFreestyleModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +206,7 @@
 /* Begin PBXTargetDependency section */
 		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2AAC07D0554694100DB518D /* PixateFramework */;
+			target = D2AAC07D0554694100DB518D /* PixateFreestyle */;
 			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -224,11 +224,12 @@
 					/Users/pixate/Desktop/Pixate/Framework,
 					/Users/pixate/Documents/Titanium_Studio_Workspace/PixateFramework/platform/iphone,
 					/Users/pixate/Desktop,
+					/Users/pcolton/Documents/PixateFreestyle,
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ComPixateFramework_Prefix.pch;
+				GCC_PREFIX_HEADER = ComPixateFreestyle_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -247,7 +248,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = ComPixateFramework;
+				PRODUCT_NAME = ComPixateFreestyle;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -267,11 +268,12 @@
 					/Users/pixate/Desktop/Pixate/Framework,
 					/Users/pixate/Documents/Titanium_Studio_Workspace/PixateFramework/platform/iphone,
 					/Users/pixate/Desktop,
+					/Users/pcolton/Documents/PixateFreestyle,
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ComPixateFramework_Prefix.pch;
+				GCC_PREFIX_HEADER = ComPixateFreestyle_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -288,7 +290,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = ComPixateFramework;
+				PRODUCT_NAME = ComPixateFreestyle;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -390,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "PixateFramework" */ = {
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "PixateFreestyle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
@@ -399,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "PixateFramework" */ = {
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "PixateFreestyle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,

@@ -1,12 +1,12 @@
-# Titanium-Pixate Module
+# Titanium-PixateFreestyle Module
 
 ## Requirements
 
-The Titanium-Pixate module requires **Titanium 3.0.0.GA** or greater.
+The Titanium-PixateFreestyle module requires **Titanium 3.0.0.GA** or greater.
 
 ## Installing the Module
 
-Unzip the module into your project's modules directory or install it globally. See [Using Titanium Modules](https://wiki.appcelerator.org/display/tis/Using+Titanium+Modules) for information on how to install the module globally.
+Unzip [the module](https://github.com/Pixate/Titanium-PixateFreestyle/releases) into your project's modules directory or install it globally. See [Using Titanium Modules](https://wiki.appcelerator.org/display/tis/Using+Titanium+Modules) for information on how to install the module globally.
 
 ## Configuring **tiapp.xml**
 
@@ -14,24 +14,18 @@ You can use the Ti Studio interface to add the Pixate module into your project, 
 
 	<module platform="iphone">com.pixate.framework</module>
 
-## Adding the Pixate Runtime & License Properties
+## Adding the PixateFreestyle Runtime Properties
 
-Once you acquired your free license key from [Pixate](http://download.pixate.com/key), you'll need two additional entries in your tipapp.xml, as follows.
+To let PixateFreestyle configure itself for working with Titanium, you'll need to update your **tiapp.xml** file by adding this entry:
 
 	<ios>
 	    <plist>
 	        <dict>
         		<key>PXTitanium</key>
         		<true/>
-	            <key>PXuser</key>
-	            <string>LICENSE USERNAME</string>
-	            <key>PXkey</key>
-	            <string>LICENSE KEY</string>
 	        </dict>
 	    </plist>
 	</ios>
-
-Be sure to substitute **LICENSE USERNAME** and **LICENSE KEY** with the information you received from Pixate.
 
 ## Styling your Controls
 
@@ -144,24 +138,24 @@ With it's accompanying .css file:
 
 ## Build Instructions
 
-If you'd like to build the module yourself, this is the simple process. After cloning this project, start by creating a symbolic link to the Pixate file from your Pixate distribution in the Pixate folder. For example:
+If you'd like to build the module yourself, this is the simple process. After cloning this project, start by creating a symbolic link to the PixateFreestyle framework file from your PixateFreestyle distribution in the PixateFreestyle folder. For example:
 
-    cd Pixate
-	ln -s ~/Desktop/Pixate/Framework/Pixate.framework ./Pixate.framework
+	cd PixateFreestyle
+	ln -s ~/Documents/PixateFreestyle/PixateFreestyle.framework
 
 Now just run build.py:
 
 	./build.py
 
-The resulting zip file can found in the Pixate directory.
+The resulting zip file can found in the PixateFreestyle directory. You may need to update your **titanium.xcconfig** file with the location of your SDK and version.
 
 ### Common Build errors
 
-* If you see an error that 'Pixate/Pixate.h' could not be found, then you may be missing the symbolic link to Pixate.framework or it may be pointing to an invalid location. This will also show as an error coming from CompileC
+* If you see an error that 'PixateFreestyle/PixateFreestyle' could not be found, then you may be missing the symbolic link to PixateFreestyle.framework or it may be pointing to an invalid location. This will also show as an error coming from CompileC
 * If you see an error about a missing "tools" module, then your TITANIUM_SDK environment variable may not be pointing to your Titanium installation. You can update the SDK path and version in the titanium.xcconfig file. Be sure to verify if your SDK has been installed in /Library/... versus ~/Library and update TITANIUM_SDK accordingly.
 * Xcode may need to be closed if you encounter CompileC errors
 
 ## License
 
-License for the included source is available in the accompanying [LICENSE](https://github.com/Pixate/Titanium-Pixate/blob/master/Pixate/LICENSE) file.
+License for the included source is available in the accompanying [LICENSE](https://github.com/Pixate/Titanium-PixateFreestyle/blob/master/PixateFreestyle/LICENSE) file.
 

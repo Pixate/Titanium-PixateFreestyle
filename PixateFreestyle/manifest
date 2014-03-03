@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 2.1.0
+apiversion: 2
+description: Titanium-PixateFreestyle Integration Library
+author: Pixate, Inc.
+license: Apache 2.0 License
+copyright: (c) 2012-Present Pixate, Inc. - All Rights Reserved
+
+
+# these should not be edited
+name: PixateFreestyle
+moduleid: com.pixate.pixatefreestyle
+guid: 335fc77b-2f61-472d-9c47-9038a90e4b56
+platform: iphone
+minsdk: 3.0.0.GA

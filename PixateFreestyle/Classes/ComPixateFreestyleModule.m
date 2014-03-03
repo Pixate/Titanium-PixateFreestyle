@@ -1,22 +1,20 @@
 /*
- *  Copyright (c) 2012-2013, Pixate, Inc
- *  All rights reserved.
+ * Copyright 2012-present Pixate, Inc.
  *
- *  This program is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
  *
- *  This program is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
+ *    http://www.apache.org/licenses/LICENSE-2.0
  *
- *  You should have received a copy of the GNU General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
 
-#import "ComPixateFrameworkModule.h"
+#import "ComPixateFreestyleModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
@@ -27,9 +25,9 @@
 #import <objc/runtime.h>
 #import <objc/message.h>
 
-#import <Pixate/Pixate.h>
+#import <PixateFreestyle/PixateFreestyle.h>
 
-@implementation ComPixateFrameworkModule
+@implementation ComPixateFreestyleModule
 
 #pragma mark Internal
 
@@ -60,7 +58,7 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
     NSString *aFilePath = [TiUtils stringValue:[args valueForKey:@"filename"]];
     int       origin    = [TiUtils intValue:[args valueForKey:@"origin"]];
 
-    PXStylesheet *pxs = [Pixate styleSheetFromFilePath:aFilePath withOrigin:origin];
+    PXStylesheet *pxs = [PixateFreestyle styleSheetFromFilePath:aFilePath withOrigin:origin];
 
     if([args valueForKey:@"monitor"] != nil)
     {
@@ -75,48 +73,38 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
     NSString *source = [TiUtils stringValue:[args valueForKey:@"source"]];
     int       origin    = [TiUtils intValue:[args valueForKey:@"origin"]];
 
-    [Pixate styleSheetFromSource:source withOrigin:origin];
+    [PixateFreestyle styleSheetFromSource:source withOrigin:origin];
 }
 
 - (void)applyStylesheets:(id)args
 {
     NSLog(@"[Pixate applyStylesheets] has been deprecated and has been replaced by [Pixate updateStylesForAllViews]")
-    [Pixate applyStylesheets];
+    [PixateFreestyle updateStylesForAllViews];
 }
 
 - (void)updateStylesForAllViews
 {
-    [Pixate updateStylesForAllViews];
+    [PixateFreestyle updateStylesForAllViews];
 }
 
 - (id)refreshStylesWithOrientationChange
 {
-    return NUMBOOL(Pixate.refreshStylesWithOrientationChange);
+    return NUMBOOL(PixateFreestyle.refreshStylesWithOrientationChange);
 }
 
 -(void)setRefreshStylesWithOrientationChange:(id)val
 {
-    [Pixate setRefreshStylesWithOrientationChange: [TiUtils boolValue:val]];
+    [PixateFreestyle setRefreshStylesWithOrientationChange: [TiUtils boolValue:val]];
 }
 
 - (NSString *)version
 {
-    return Pixate.version;
+    return PixateFreestyle.version;
 }
 
 - (NSDate *)buildDate
 {
-    return Pixate.buildDate;
-}
-
-- (NSString *)licenseEmail
-{
-    return Pixate.licenseEmail;
-}
-
-- (NSString *)licenseKey
-{
-    return Pixate.licenseKey;
+    return PixateFreestyle.buildDate;
 }
 
 @end

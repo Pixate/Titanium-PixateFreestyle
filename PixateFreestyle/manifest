@@ -12,7 +12,7 @@ copyright: (c) 2012-Present Pixate, Inc. - All Rights Reserved
 
 # these should not be edited
 name: PixateFreestyle
-moduleid: com.pixate.pixatefreestyle
+moduleid: com.pixate.freestyle
 guid: 006304b0-0607-4bca-b328-911e6fe81915
 platform: iphone
 minsdk: 3.0.0.GA

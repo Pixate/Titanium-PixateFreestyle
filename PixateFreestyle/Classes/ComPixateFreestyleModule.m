@@ -40,7 +40,7 @@
 // this is generated for your module, please do not change it
 -(NSString*)moduleId
 {
-	return @"com.pixate.pixatefreestyle";
+	return @"com.pixate.freestyle";
 }
 
 #pragma Pixate enums

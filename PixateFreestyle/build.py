@@ -67,7 +67,7 @@ def generate_doc(config):
 	return documentation
 
 def compile_js(manifest,config):
-	js_file = os.path.join(cwd,'assets','com.pixate.framework.js')
+	js_file = os.path.join(cwd,'assets','com.pixate.pixatefreestyle.js')
 	if not os.path.exists(js_file): return
 
 	from compiler import Compiler
@@ -212,7 +212,7 @@ def package_module(manifest,mf,config):
 			for file, html in doc.iteritems():
 				filename = string.replace(file,'.md','.html')
 				zf.writestr('%s/documentation/%s'%(modulepath,filename),html)
-	for dn in ('assets','example','platform', 'Pixate.framework'):
+	for dn in ('assets','example','platform', 'PixateFreestyle.framework'):
 	  if os.path.exists(dn):
 		  zip_dir(zf,dn,'%s/%s' % (modulepath,dn),['README'])
 	zf.write('LICENSE','%s/LICENSE' % modulepath)

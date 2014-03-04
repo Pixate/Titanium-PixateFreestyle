@@ -155,6 +155,10 @@ The resulting zip file can found in the PixateFreestyle directory. You may need 
 * If you see an error about a missing "tools" module, then your TITANIUM_SDK environment variable may not be pointing to your Titanium installation. You can update the SDK path and version in the titanium.xcconfig file. Be sure to verify if your SDK has been installed in /Library/... versus ~/Library and update TITANIUM_SDK accordingly.
 * Xcode may need to be closed if you encounter CompileC errors
 
+## Mailing List & Twitter
+
+Keep up with notifications and announcements by joining Pixate's [mailing list](http://pixatesurvey.herokuapp.com) and [follow us](http://twitter.com/Pixate) on Twitter.
+
 ## License
 
 License for the included source is available in the accompanying [LICENSE](https://github.com/Pixate/Titanium-PixateFreestyle/blob/master/PixateFreestyle/LICENSE) file.

@@ -7,8 +7,6 @@
 // http://developer.apple.com/mac/library/documentation/DeveloperTools/Conceptual/XcodeBuildSystem/400-Build_Configurations/build_configs.html
 // 
 
-TITANIUM_SDK=/Users/pcolton/Library/Application Support/Titanium/mobilesdk/osx/3.2.1.GA
-
 //
 // How to add a Framework (example)
 //

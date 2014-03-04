@@ -26,7 +26,7 @@
 		24DD6CFA1134B3F500162E58 /* ComPixateFreestyleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComPixateFreestyleModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.m */; };
-		9CAA08FB18C50C2800096D89 /* PixateFreestyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAA08FA18C50C2800096D89 /* PixateFreestyle.framework */; };
+		9CA3948818C65FE000956614 /* PixateFreestyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA3948718C65FE000956614 /* PixateFreestyle.framework */; };
 		AA747D9F0F9514B9006C5449 /* ComPixateFreestyle_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComPixateFreestyle_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -47,7 +47,7 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComPixateFreestyleModuleAssets.h; path = Classes/ComPixateFreestyleModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* ComPixateFreestyleModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPixateFreestyleModuleAssets.m; path = Classes/ComPixateFreestyleModuleAssets.m; sourceTree = "<group>"; };
-		9CAA08FA18C50C2800096D89 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PixateFreestyle.framework; path = ../../../../../Documents/PixateFreestyle/PixateFreestyle.framework; sourceTree = "<group>"; };
+		9CA3948718C65FE000956614 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PixateFreestyle.framework; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComPixateFreestyle_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComPixateFreestyle_Prefix.pch; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libComPixateFreestyle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComPixateFreestyle.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				9CAA08FB18C50C2800096D89 /* PixateFreestyle.framework in Frameworks */,
+				9CA3948818C65FE000956614 /* PixateFreestyle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9CAA08FA18C50C2800096D89 /* PixateFreestyle.framework */,
+				9CA3948718C65FE000956614 /* PixateFreestyle.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -226,6 +226,7 @@
 					/Users/pixate/Documents/Titanium_Studio_Workspace/PixateFramework/platform/iphone,
 					/Users/pixate/Desktop,
 					/Users/pcolton/Documents/PixateFreestyle,
+					"/Users/pcolton/Development/Pixate/products/Titanium-PixateFreestyle/PixateFreestyle",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -272,6 +273,7 @@
 					/Users/pixate/Documents/Titanium_Studio_Workspace/PixateFramework/platform/iphone,
 					/Users/pixate/Desktop,
 					/Users/pcolton/Documents/PixateFreestyle,
+					"/Users/pcolton/Development/Pixate/products/Titanium-PixateFreestyle/PixateFreestyle",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;

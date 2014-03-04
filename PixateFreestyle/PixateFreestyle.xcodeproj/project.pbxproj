@@ -222,11 +222,7 @@
 				DSTROOT = /tmp/ComPixateFramework.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/pixate/Desktop/Pixate/Framework,
-					/Users/pixate/Documents/Titanium_Studio_Workspace/PixateFramework/platform/iphone,
-					/Users/pixate/Desktop,
-					/Users/pcolton/Documents/PixateFreestyle,
-					"/Users/pcolton/Development/Pixate/products/Titanium-PixateFreestyle/PixateFreestyle",
+					"./**",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -269,11 +265,7 @@
 				DSTROOT = /tmp/ComPixateFramework.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/pixate/Desktop/Pixate/Framework,
-					/Users/pixate/Documents/Titanium_Studio_Workspace/PixateFramework/platform/iphone,
-					/Users/pixate/Desktop,
-					/Users/pcolton/Documents/PixateFreestyle,
-					"/Users/pcolton/Development/Pixate/products/Titanium-PixateFreestyle/PixateFreestyle",
+					"./**",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;

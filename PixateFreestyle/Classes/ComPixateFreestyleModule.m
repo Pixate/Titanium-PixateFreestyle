@@ -142,7 +142,7 @@ MAKE_SYSTEM_PROP(PXStylesheetOriginView,        PXStylesheetOriginView);
 -(void)px_relayout
 {
     [self px_relayout];
-    [self updateStylesNonRecursively:nil];
+    [self updateStyles:nil];
 }
 
 + (void)swizzleMethod:(SEL)orig_sel withMethod:(SEL)alt_sel
